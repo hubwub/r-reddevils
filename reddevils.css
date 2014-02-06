@@ -1,7 +1,7 @@
 /* POTW */
 .side h1 a[href="#caption"]:after {
 	top: 358px; /* 1 line: 358px; 2 lines: 358px; 3 lines: 347px... */
-	content: "an injury hit game at stoke results in another defeat"
+	content: "Forever Remembered the Busby Babes"
 }
 
 /* Announcement */
@@ -1536,7 +1536,7 @@ a[href^="//#whistle"], a[href^="//#foul"]{
 a[href^="//#yellow"], a[href^="//#yellowcard"]{
 	background-position: 0 -510px;
 }
-.md a[href*="youtube.com/watch"], .md a[href*="youtu.be/"], .md a[href*="vimeo.com/"], .md a[href*="twitvid.com/"], .md a[href*="/video/"], .md a[href*="/gvideos/"] {
+.md a[href*="youtube.com/watch"], .md a[href*="youtu.be/"], .md a[href*="vimeo.com/"], .md a[href*="twitvid.com/"], .md a[href*="/video/"], .md a[href*="/gvideos/"], .md a[href*="gfycat.com/"] {
 	 background-image: url(%%icons%%);
 	 background-repeat: no-repeat;
 	 background-position: left center;
