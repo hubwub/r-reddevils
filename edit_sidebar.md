@@ -1,7 +1,7 @@
 Home |    Score | Away | Links
  :-: | :---: | :-: | :-:
-*Man Utd*  |  :  | Fulham | 09 Feb - K.O 16:00 GMT
-Stoke City | 2 : 1 | *Man Utd* | [Pre](http://www.reddit.com/r/reddevils/comments/1wm0n8/pre_match_thread_stoke_city_vs_manchester_united/) - [Match](http://www.reddit.com/r/reddevils/comments/1wq7wl/match_thread_stoke_city_fc_vs_manchester_united_fc/)  - [Post](http://www.reddit.com/r/reddevils/comments/1wqiba/post_match_thread_stoke_city_fc_vs_manchester/?sort=top)
+Crystal Palace  |  :  | *Man Utd* | 22 Feb - K.O 17:30 GMT
+Arsenal  | 0 : 0 | *Man Utd*  | [Pre](http://www.reddit.com/r/reddevils/comments/1xkkx6/pre_match_thread_arsenal_vs_manchester_united/) - [Match](http://www.reddit.com/r/reddevils/comments/1xqcw3/match_thread_arsenal_fc_vs_manchester_united_fc/)  - [Post](http://www.reddit.com/r/reddevils/comments/1xqrx2/post_match_thread_manchester_united_vs_arsenal/)
 
 #[](#potw)
 #[](#caption)
@@ -10,11 +10,6 @@ Stoke City | 2 : 1 | *Man Utd* | [Pre](http://www.reddit.com/r/reddevils/comment
 
 ##Champions 2012/13
 
-#[](#break)
-
-#Want to talk transfers?
-
-##[Click here](http://www.reddit.com/r/reddevils/search?q=transfer+round+up&sort=new&restrict_sr=on)
 
 #[](#break)
 
