@@ -1,7 +1,7 @@
 /* POTW */
 .side h1 a[href="#caption"]:after {
-	top: 369px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
-	content: "It wasn't a win but a draw was just fine."
+	top: 358px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
+	content: "Deadlock at the Emirates as both sides defend well."
 }
 
 /* Announcement */
