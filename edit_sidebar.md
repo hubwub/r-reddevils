@@ -21,7 +21,7 @@ Arsenal  | 0 : 0 | *Man Utd*  | [Pre](http://www.reddit.com/r/reddevils/comments
 
 [r/reddevils chat (IRC channel)](http://www.reddit.com/r/reddevils/wiki/irc_channel)
 
-[Unpopular opinions - February](http://www.reddit.com/r/reddevils/comments/1wu28j/unpopular_opinions_february_part_1/)
+[Unpopular opinions - February](http://www.reddit.com/r/reddevils/comments/1y2svc/unpopular_opinions_february_part_2/)
 
 
 
