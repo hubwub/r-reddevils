@@ -1,0 +1,354 @@
+/* Body
+------------------------------------- */
+body {
+  background: #fff;
+  color: #343434;
+  font-family: "HelveticaNeue" ,"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+a, a:visited {
+  color: #950a1f;
+}
+
+h1 a {
+  font-weight: 700;
+}
+
+h2 {
+  color: #950a1f;
+  font-size: 1.2em;
+}
+
+h2 a, h2 a:visited {
+  color: #343434;
+}
+
+hr {
+  border: none;
+  border-top: #d9d9d9 1px solid;
+}
+
+.error {
+  color: #920e23;
+  font-weight: 700;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+}
+
+  code {
+  color: #666;
+  background-color: #fffdcf;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="url"] {
+  background: #f6f6f7 !important;
+  color: #999999;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.md table {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  border-bottom: 1px #525252 solid;
+  margin: 0;
+  padding: 0 !important;
+}
+.md table th {
+  font-size: 11px;
+  padding: 5px 0;
+}
+.md table td {
+  color: #343434;
+  border: none;
+}
+.md table tr {
+  height: 27.5px;
+}
+.md table td, .md table th {
+  text-align: center;
+  border: none;
+}
+
+/* Header
+------------------------------------- */
+#header {
+  background-color: #950a1f;
+  border-bottom: 55px #8a081a solid;
+  height: 125px;
+}
+
+#header #sr-header-area, #header #sr-more-link {
+  height: 20px;
+  line-height: 20px;
+  color: #950a1f;
+  background-color: #1a1a1a;
+  /*border-bottom: #343434 solid 1px;*/
+}
+
+#header #sr-header-area a, a:visited {
+  color: #950a1f;
+}
+
+
+/* List fix
+------------------------------------- */
+sr-more-link {
+background-color: #950a1f;
+}
+
+.drop-choices a.choice {
+color: #000 !important;
+}
+
+.dropdown.srdrop .selected{
+color: #950a1f !important;
+}
+
+/* User Notification Bar */
+.user, .user a, #mailCount, .pref-lang, .logout.hover a, .res-navTop .separator {
+  color:white !important;
+}
+
+.logout.hover a {
+  padding-right: 21px !important;
+}
+
+#header-bottom-right{
+  position: absolute;
+  top: 135px !important;
+  right: 0px !important;
+  border-radius: 0 !important;
+  background-repeat: repeat-x;    
+  display: block;
+  background-color:transparent!important;
+  height: 28px !important;
+  padding: 10px 0px 0px !important;
+}
+body.res #header #header-bottom-right{
+  position: absolute;
+  top: 135px !important;
+  right: 0px !important;
+  background-repeat: repeat-x;
+  display: block;
+  background-color:transparent!important;
+  height: 28px !important;
+}
+
+#userbarToggle{
+  color: white !important;
+  border-radius: 0 !important;
+  background-color:transparent!important;
+  border: none !important;
+  line-height:38px !important;
+  min-height: 38px !important;
+}
+
+#userbarToggle.userbarShow {
+  left: -30px !important;
+}
+
+/* TOP BAR */
+
+#RESShortcutsEditContainer {
+  width: 64px;
+  margin-top:1px;
+  background-color: #1a1a1a!important;
+}
+
+
+#RESShortcutsSort, #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+  background-color: #1a1a1a!important;
+  color: #950a1f !important;
+}
+
+#RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd {
+  font-size: 11px !important;
+  line-height: 16px !important;
+}
+
+#RESStaticShortcuts, #RESShortcuts, #srDropdown { 
+  margin-top:1px !important;
+}
+
+.separator {
+  color: #333 !important;
+}
+
+#RESShortcutsSort {
+  font-size: 11px !important;
+  line-height:15px !important;
+}
+
+#sr-header-area  {
+  background: #1a1a1a !important;
+  border-bottom: none !important;
+  height:20px !important;
+}
+
+#sr-header-area a  {
+  color: #950a1f;
+}
+
+.selected .title {
+color:white !important;
+}
+
+.NERPageMarker {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  border:0px black solid !important;
+}
+
+
+/*Tab name and subreddit logo*/
+
+#header #header-bottom-left {
+  position: relative;
+  top: 25px;
+}
+
+#header .pagename {
+  visibility: hidden;
+  position: relative;
+  bottom: 10px;
+}
+#header .pagename a:before {
+  visibility: visible;
+  content: url(%%sr-logo%%);
+  color: #fff;
+}
+
+#header .tabmenu {
+  position: absolute;
+  left: 55px;
+  top: 94px;
+  font-family: "HelveticaNeue" ,"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: none;
+  color: #5a0910;
+  border: none;
+  font-size: 12px;
+}
+
+#header .tabmenu li {
+  margin-left: 0px;
+}
+#header .tabmenu li.selected a {
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  background: none;
+  /* TODO notch */
+}
+#header .tabmenu li a {
+  background: none;
+  color: #5a0910;
+  margin-right: 30px;
+  padding: 0px;
+}
+#header .tabmenu li a:hover {
+  color: #fff;
+}
+
+
+/* Link listing */
+  .sitetable.linklisting .rank, .sitetable.linklisting .thumbnail, .sitetable.linklisting .flair {
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    margin-bottom: inherit !important;
+  }
+  .sitetable.linklisting .thing {
+    margin: 0;
+    padding: 12px 55px;
+  }
+
+  .sitetable.linklisting .thing .midcol {
+    padding: 0;
+    margin: 0;
+    width: 12px;
+    position: relative;
+    top: -6px;
+  }
+  .sitetable.linklisting .thing .score {
+    font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    margin-left: 3px;
+    margin-right: 1px;
+    font-size: 12px !important;
+  }
+  .sitetable.linklisting .thing .score.likes {
+    color: #bb2211;
+  }
+  .sitetable.linklisting .thing .score.dislikes {
+    color: #92c4e8;
+  }
+  .sitetable.linklisting .thing .arrow {
+    height: 16px;
+    width: 16px;
+    margin: 0;
+    background-image: url(%%sprite%%);
+  }
+  .sitetable.linklisting .thing .arrow.up {
+    background-position: 0px 5px;
+  }
+  .sitetable.linklisting .thing .arrow.upmod {
+    background-position: -20px 5px;
+  }
+  .sitetable.linklisting .thing .arrow.down {
+    background-position: -40px 3px;
+  }
+  .sitetable.linklisting .thing .arrow.downmod {
+    background-position: -60px 3px;
+  }
+  .sitetable.linklisting .thing .entry {
+    padding-left: 44px;
+    margin: 0;
+  }
+  .sitetable.linklisting .thing .title a {
+    color: #950a1f;
+    font-size: 16px;
+  }
+  .sitetable.linklisting .thing .title a:hover {
+    color: #730017;
+  }
+  .sitetable.linklisting .thing .title .domain, .sitetable.linklisting .thing .title .domain a {
+    position: relative;
+    top: -1px;
+    font-size: 11px;
+    color: #999999;
+    text-transform: lowercase;
+  }
+  .sitetable.linklisting .thing .tagline, .sitetable.linklisting .thing .tagline a, .sitetable.linklisting .thing .flat-list, .sitetable.linklisting .thing .flat-list ul {
+    display: inline;
+    font-size: 11px;
+    color: #999999;
+  }
+
+  .sitetable.linklisting .thing.self .title {
+    padding-left: 12px;
+  }
+  .sitetable.linklisting .thing.self .expando-button {
+    position: relative;
+    top: -20px;
+    margin: 0;
+    height: 18px;
+    width: 18px;
+    z-index: 99;
+    background: url(%%sprite%%);
+    background-position: -160px 4px;
+  }
+  .sitetable.linklisting .thing.self .expando-button:hover {
+    background-position: -180px 4px;
+    cursor: pointer;
+  }
+  .sitetable.linklisting .thing.self .tagline {
+    left: -18px;
+    position: relative;
+  }
