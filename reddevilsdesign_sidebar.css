@@ -31,6 +31,14 @@ font-size: 14px;
 padding: 0 10px;
 }
 
+.side form#search input[type=text] {
+  border: 1px solid gray;
+  font-size: 18px;
+  width: 295px;
+  padding: 2px;
+  color: #fff !important;
+}
+
 .side form#search input[name="q"] {
   height: 54px;
   width: 305px;
