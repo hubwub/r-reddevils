@@ -1,7 +1,7 @@
 Home |    Score | Away | Links
  :-: | :---: | :-: | :-:
-*Man Utd* |  :  | Liverpool | 16 Mar - K.O 13:30 GMT
-West Brom | 0 : 3 | *Man Utd*  | [Pre](http://www.reddit.com/r/reddevils/comments/1zoizf/pre_match_thread_west_brom_vs_manchester_united/) - [Match](http://www.reddit.com/r/reddevils/comments/1zvxsm/match_thread_west_bromwich_albion_vs_manchester/)  - [Post](http://www.reddit.com/r/reddevils/comments/1zw4uc/post_match_thread_west_brom_vs_manchester_united/)
+*Man Utd* |  :  | Olympiakos| 19 Mar - K.O 19:45 GMT
+*Man Utd* | 0 : 3 | Liverpool | [Pre](http://www.reddit.com/r/reddevils/comments/20b7a8/pre_match_thread_manchester_united_vs_liverpool/) - [Match](http://www.reddit.com/r/reddevils/comments/20jrfz/match_thread_manchester_united_fc_vs_liverpool_fc/)  - [Post](http://www.reddit.com/r/reddevils/comments/20jzoz/post_match_thread_manchester_united_fc_vs/)
 
 #[](#potw)
 #[](#caption)
