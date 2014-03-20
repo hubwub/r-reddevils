@@ -1,7 +1,7 @@
 /* POTW */
 .side h1 a[href="#caption"]:after {
 	top: 358px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
-	content: "3 Penalties. A Handball. Redcard. Defeat."
+	content: "'Down and out? Not a bit of it. They are NEVER out!' we are in the quarter final!"
 }
 
 /* Announcement */

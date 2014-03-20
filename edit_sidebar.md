@@ -1,7 +1,7 @@
 Home |    Score | Away | Links
  :-: | :---: | :-: | :-:
-*Man Utd* |  :  | Olympiakos| 19 Mar - K.O 19:45 GMT
-*Man Utd* | 0 : 3 | Liverpool | [Pre](http://www.reddit.com/r/reddevils/comments/20b7a8/pre_match_thread_manchester_united_vs_liverpool/) - [Match](http://www.reddit.com/r/reddevils/comments/20jrfz/match_thread_manchester_united_fc_vs_liverpool_fc/)  - [Post](http://www.reddit.com/r/reddevils/comments/20jzoz/post_match_thread_manchester_united_fc_vs/)
+*Man Utd* |  :  | West Ham United| 22 Mar - K.O 17:30 GMT
+*Man Utd* | 3 : 0 | Olympiakos | [Pre](http://www.reddit.com/r/reddevils/comments/20q8zr/pre_match_thread_manchester_united_vs_olympiacos/) - [Match](http://www.reddit.com/r/reddevils/comments/20u4ct/match_thread_manchester_united_fc_vs_olympiacos_fc/)  - [Post](http://www.reddit.com/r/reddevils/comments/20ujhn/post_match_thread_manchester_united_vs_olympiakos/)
 
 #[](#potw)
 #[](#caption)
