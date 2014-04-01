@@ -1,7 +1,7 @@
 Home |    Score | Away | Links
  :-: | :---: | :-: | :-:
-*Man Utd* |  :  | Man City | 25 Mar - K.O 19:45 GMT
-West Ham United  | 0 : 2 | *Man Utd* | [Pre](http://www.reddit.com/r/reddevils/comments/20zt1l/pre_match_thread_west_ham_united_vs_manchester/) - [Match](http://www.reddit.com/r/reddevils/comments/2132qq/match_thread_west_ham_united_fc_vs_manchester/)  - [Post](http://www.reddit.com/r/reddevils/comments/213dlg/post_match_thread_west_ham_united_vs_manchester/)
+Newcastle  |  :  | *Man Utd* | 05 Apr - K.O 15:00 GMT
+*Man Utd*  | 1 : 1 | Bayern Munich | [Pre](http://www.reddit.com/r/reddevils/comments/21r4py/pre_match_thread_manchester_united_vs_bayern/) - [Match](http://www.reddit.com/r/reddevils/comments/21y0bf/match_thread_manchester_united_fc_vs_bayern/)  - [Post](http://www.reddit.com/r/reddevils/comments/21ydrs/post_match_thread_manchester_united_vs_bayern/)
 
 #[](#potw)
 #[](#caption)
