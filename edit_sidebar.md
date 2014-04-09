@@ -1,7 +1,7 @@
 Home |    Score | Away | Links
  :-: | :---: | :-: | :-:
-Bayern Munich  |  :  | *Man Utd* | 09 Apr - K.O 19:45 GMT
-Newcastle | 0 : 4 | *Man Utd*| [Pre](http://www.reddit.com/r/reddevils/comments/223x3o/pre_match_thread_newcastle_united_vs_manchester/) - [Match](http://www.reddit.com/r/reddevils/comments/229rge/match_thread_newcastle_vs_manchester_utd/)  - [Post](http://www.reddit.com/r/reddevils/comments/229z95/post_match_thread_newcastle_united_vs_manchester/)
+Everton |  :  | *Man Utd* | 20 Apr - K.O 16:10 GMT
+ Bayern Munich  | 3 : 1 | *Man Utd*| [Pre](http://www.reddit.com/r/reddevils/comments/22enck/pre_match_thread_bayern_munich_vs_manchester/) - [Match](http://www.reddit.com/r/reddevils/comments/22mh9p/match_thread_bayern_munich_fc_vs_manchester/)  - [Post](http://www.reddit.com/r/reddevils/comments/22mx1y/post_match_thread_manchester_united_vs_bayern/)
 
 #[](#potw)
 #[](#caption)
