@@ -1,7 +1,7 @@
 /* POTW */
 .side h1 a[href="#caption"]:after {
-	top: 369px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
-	content: "Ryan Giggs is appointed as interim manager"
+	top: 358px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
+	content: "United lose to Sunderland 0-1"
 }
 
 /* Announcement */
@@ -21,7 +21,6 @@ e.g. "#[Text to be shown on the announcement banner](http://www.reddit.com/r/red
 
 	background: #222; /* Old browsers */
 	background: -moz-linear-gradient(top, #444, #111); /* FF3.6+ */
-	background: -webkit-gradient(top, #444, #111); /* Chrome,Safari4 up */
 	background: -webkit-linear-gradient(top, #444, #111); /* Chrome10 up,Safari5.1+ */
 	background: -o-linear-gradient(top, #444, #111); /* Opera 11.10 up */
 	background: -ms-linear-gradient(top, #444, #111); /* IE10 up */
@@ -353,8 +352,6 @@ padding: 3px !important;
 	padding: 3px 10px !important;
 	background: #b21f1f !important; /* Old browsers */
 	background: -moz-linear-gradient(bottom, #931010, #c42323) !important; /* FF3.6+ */
-	background: -webkit-gradient(bottom, #931010, #c42323) !important; /* Chrome,Safari4 up */
-	background: -webkit-linear-gradient(bottom, #931010, #c42323) !important; /* Chrome10 up,Safari5.1+ */
 	background: -o-linear-gradient(bottom, #931010, #c42323) !important; /* Opera 11.10 up */
 	background: -ms-linear-gradient(bottom, #931010, #c42323) !important; /* IE10 up */
 	background: linear-gradient(to bottom, #931010, #c42323) !important; /* W3C */
@@ -395,9 +392,7 @@ padding: 3px !important;
 
 	background: #a80010 !important; /* Old browsers */
 	background: -moz-linear-gradient(bottom, #a80010, #d53030) !important; /* FF3.6+ */
-	background: -webkit-gradient(bottom, #a80010, #d53030) !important; /* Chrome,Safari4 up */
 	background: -webkit-linear-gradient(bottom, #a80010, #d53030) !important; /* Chrome10 up,Safari5.1+ */
-	background: -o-linear-gradient(bottom, #a80010, #d53030) !important; /* Opera 11.10 up */
 	background: -ms-linear-gradient(bottom, #a80010, #d53030) !important; /* IE10 up */
 	background: linear-gradient(to bottom, #a80010, #d53030) !important; /* W3C */
 }
@@ -475,7 +470,6 @@ padding: 3px !important;
 
 	background: #e8e8e8 !important; /* Old browsers */
 	background: -moz-linear-gradient(bottom, #eee, #fafafa) !important; /* FF3.6+ */
-	background: -webkit-gradient(bottom, #eee, #fafafa) !important; /* Chrome,Safari4 up */
 	background: -webkit-linear-gradient(bottom, #eee, #fafafa) !important; /* Chrome10 up,Safari5.1+ */
 	background: -o-linear-gradient(bottom, #eee, #fafafa) !important; /* Opera 11.10 up */
 	background: -ms-linear-gradient(bottom, #eee, #fafafa) !important; /* IE10 up */
@@ -488,7 +482,6 @@ padding: 3px !important;
 
 	background: #f3f3f3 !important; /* Old browsers */
 	background: -moz-linear-gradient(bottom, #e8e8e8, #f3f3f3) !important; /* FF3.6+ */
-	background: -webkit-gradient(bottom, #e8e8e8, #f3f3f3) !important; /* Chrome,Safari4 up */
 	background: -webkit-linear-gradient(bottom, #e8e8e8, #f3f3f3) !important; /* Chrome10 up,Safari5.1+ */
 	background: -o-linear-gradient(bottom, #e8e8e8, #f3f3f3) !important; /* Opera 11.10 up */
 	background: -ms-linear-gradient(bottom, #e8e8e8, #f3f3f3) !important; /* IE10 up */
@@ -1014,7 +1007,6 @@ blockquote {
 
 	background: #7dc133 !important; /* Old browsers */
 	background: -moz-linear-gradient(bottom, #689b31, #82ca34) !important; /* FF3.6+ */
-	background: -webkit-gradient(bottom, #689b31, #82ca34) !important; /* Chrome,Safari4 up */
 	background: -webkit-linear-gradient(bottom, #689b31, #82ca34) !important; /* Chrome10 up,Safari5.1+ */
 	background: -o-linear-gradient(bottom, #689b31, #82ca34) !important; /* Opera 11.10 up */
 	background: -ms-linear-gradient(bottom, #689b31, #82ca34) !important; /* IE10 up */
@@ -1028,7 +1020,6 @@ blockquote {
 
 	background: #b21f1f !important; /* Old browsers */
 	background: -moz-linear-gradient(bottom, #931010, #c42323) !important; /* FF3.6+ */
-	background: -webkit-gradient(bottom, #931010, #c42323) !important; /* Chrome,Safari4 up */
 	background: -webkit-linear-gradient(bottom, #931010, #c42323) !important; /* Chrome10 up,Safari5.1+ */
 	background: -o-linear-gradient(bottom, #931010, #c42323) !important; /* Opera 11.10 up */
 	background: -ms-linear-gradient(bottom, #931010, #c42323) !important; /* IE10 up */
@@ -1184,7 +1175,7 @@ blockquote {
 	border-left: #ddd 1px dashed !important;
 }
 
-.wiki-page .wiki-page-content .md.wiki > .toc > ul {
+.wiki-page .wiki-page-content .md.wiki &gt; .toc &gt; ul {
 	border: #ddd 1px solid !important;
 	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
 }
