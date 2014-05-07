@@ -1,7 +1,7 @@
 Home |    Score | Away | Links
  :-: | :---: | :-: | :-:
-*Man Utd* |  :  | Hull City | 06 May - K.O 19:45 GMT
-*Man Utd*  | 0 : 1 | Sunderland | [Pre](http://www.reddit.com/r/reddevils/comments/24i6nm/pre_match_thread_manchester_united_vs_sunderland/) - [Match](http://www.reddit.com/r/reddevils/comments/24mbe3/match_thread_manchester_united_fc_vs_sunderland/)  - [Post](http://www.reddit.com/r/reddevils/comments/24mkvb/post_match_thread_manchester_united_fc_vs/)
+Southampton |  :  | *Man Utd* | 11 May - K.O 15:00 GMT
+*Man Utd*  | 3 : 1 | Hull City | [Pre](http://www.reddit.com/r/reddevils/comments/24spti/pre_match_thread_manchester_united_vs_hull_city/) - [Match](http://www.reddit.com/r/reddevils/comments/24vt0m/match_thread_manchester_united_fc_vs_hull_city_afc/)  - [Post](http://www.reddit.com/r/reddevils/comments/24w71c/post_match_thread_manchester_united_vs_hull_city/)
 
 #[](#potw)
 #[](#caption)
