@@ -1,19 +1,54 @@
 Home |    Score | Away | Links
  :-: | :---: | :-: | :-:
-Southampton |  :  | *Man Utd* | 11 May - K.O 15:00 GMT
-*Man Utd*  | 3 : 1 | Hull City | [Pre](http://www.reddit.com/r/reddevils/comments/24spti/pre_match_thread_manchester_united_vs_hull_city/) - [Match](http://www.reddit.com/r/reddevils/comments/24vt0m/match_thread_manchester_united_fc_vs_hull_city_afc/)  - [Post](http://www.reddit.com/r/reddevils/comments/24w71c/post_match_thread_manchester_united_vs_hull_city/)
+Pre Season |  :  | Dates to follow! | July/August 2014
+Southampton  | 1 : 1 | *Man Utd* | [Pre](http://www.reddit.com/r/reddevils/comments/2537mx/pre_match_thread_southampton_vs_manchester_united/) - [Match](http://www.reddit.com/r/reddevils/comments/25a17p/match_thread_southampton_fc/)  - [Post](http://www.reddit.com/r/reddevils/comments/25ab2q/post_match_season_thread_southampton_1_manchester/)
 
 #[](#potw)
 #[](#caption)
 
 #**Manchester United FC**
 
-##Champions 2012/13
-
 
 #[](#break)
 
+
 ####
+#Premier League Standings 
+|Pos |    Team    | Pld  | GD | Pts|
+| :-: | :----------: | :-: | :-: | :-: |
+|5|Everton|38|+22|72|
+|6|Tottenham Hotspur|38|+4|69|
+|**7**|**Manchester United**|**38**|**+21**|**64**|
+|8|Southampton|38|+8|56|
+|9|Stoke City|38|-7|50|
+
+*Last Updated: May 19, 2014 at 05:57PM | [Full](http://www.premierleague.com/en-gb/matchday/league-table.html)*
+#[](#break)
+#Results and Fixtures
+|Comp | Date | |Opponent | Result
+|:-----------------------------: | :----: | :-: |  :-: | :-: |
+|CL|Apr 1|H|Bayern Munich|1-1|
+|PL|Apr 5|A|Newcastle United|0-4|
+|CL|Apr 9|A|Bayern Munich|3-1|
+|PL|Apr 20|A|Everton|2-0|
+|PL|Apr 26|H|Norwich City|4-0|
+|PL|May 3|H|Sunderland|0-1|
+|PL|May 6|H|Hull City|3-1|
+|PL|May 11|A|Southampton|1-1|
+
+*Last Updated: May 19, 2014 at 05:57PM | [Full](http://www.manutd.com/en/Fixtures-And-Results/United-Fixtures-And-Results.aspx?pageNo=4)*
+#[](#break)
+#Top scorers (All Competitions) 
+|Player|Goals|Assists|Games|
+|:--:|:--:|:--:|:--:|
+|Wayne Rooney|19|17|37(3)|
+|Robin Van Persie|18|3|23(5)|
+|Danny Welbeck|10|3|25(12)|
+|Javier Hernandez|10|4|13(23)|
+|Juan Mata|6|4|14(1)|
+
+*Last Updated: May 19, 2014 at 05:57PM | [Full](http://espnfc.com/team/squad/_/id/360/league/all/manchester-united?cc=5901)*
+
 
 #[](#break)
 
