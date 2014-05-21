@@ -1,1536 +1,1351 @@
 /* POTW */
-.side h1 a[href="#caption"]:after {
-	top: 358px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
-	content: "players' player and fan's player of the year, well deserved, David de gea!"
+ .side h1 a[href="#caption"]:after {
+    top: 358px;
+    /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
+    content:"players' player and fan's player of the year, well deserved, David de gea!"
 }
-
 /* Announcement */
+
 /* To set the announcement, add the following to the top of the sidebar:
 "#[Text to be shown on the announcement banner](FULL_REDDIT.COM_URL_TO_ANNOUNCEMENT_POST_HERE)"
 e.g. "#[Text to be shown on the announcement banner](http://www.reddit.com/r/reddevils/comments/1ugtdh/best_of_rreddevils_for_2013_results/)" */
-
-.titlebox h1 a[href="http://www.reddit.com/r/reddevils/comments/1ugtdh/best_of_rreddevils_for_2013_results/"] {
-	bottom: 0px; /* if it's *really* important, change this to "top: 0px;" */
-
-	position: fixed;
-	display: block;
-	z-index: 1000;
-	left: 0px;
-	width: 100%;
-	padding: 12px 0;
-
-	background: #222; /* Old browsers */
-	background: -moz-linear-gradient(top, #444, #111); /* FF3.6+ */
-	background: -webkit-linear-gradient(top, #444, #111); /* Chrome10 up,Safari5.1+ */
-	background: -o-linear-gradient(top, #444, #111); /* Opera 11.10 up */
-	background: -ms-linear-gradient(top, #444, #111); /* IE10 up */
-	background: linear-gradient(to bottom, #444, #111); /* W3C */
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	color: #fff;
-	font-weight: normal !important;
-	font-size: 16px;
-	text-align: center;
-	text-shadow: 0px -1px 0px #000;
-	border-top: #666 1px solid;
-	border-bottom: #000 1px solid;
-	box-shadow: -5px 1px 10px #111;
+ .titlebox h1 a[href="http://www.reddit.com/r/reddevils/comments/1ugtdh/best_of_rreddevils_for_2013_results/"] {
+    bottom: 0px;
+    /* if it's *really* important, change this to "top: 0px;" */
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    left: 0px;
+    width: 100%;
+    padding: 12px 0;
+    background: #222;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #444, #111);
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #444, #111);
+    /* Chrome10 up,Safari5.1+ */
+    background: -o-linear-gradient(top, #444, #111);
+    /* Opera 11.10 up */
+    background: -ms-linear-gradient(top, #444, #111);
+    /* IE10 up */
+    background: linear-gradient(to bottom, #444, #111);
+    /* W3C */
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    color: #fff;
+    font-weight: normal !important;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 0px -1px 0px #000;
+    border-top: #666 1px solid;
+    border-bottom: #000 1px solid;
+    box-shadow: -5px 1px 10px #111;
 }
 .titlebox h1 a[href="http://www.reddit.com/r/reddevils/comments/1e6yb1/fergie_just_announced_that_wayne_rooney_has_asked/"]:hover {
-	color: #bb2211;
+    color: #bb2211;
 }
-
 body {
-	background: url(%%bg-crest%%) no-repeat fixed center center #fff;
+    background: url(%bg-crest%) no-repeat fixed center center #fff;
 }
-
 a, a:visited {
-	color: #bb2211;
+    color: #bb2211;
 }
-
 h1, h2, h3, h4 {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
 }
-
 h1 a {
-	font-weight: bold;
+    font-weight: bold;
 }
-
 h2 {
-	color: #bb2211;
-	font-size: 1.2em;
+    color: #bb2211;
+    font-size: 1.2em;
 }
-
 h2 a:visited {
-	color: #bb2211;
+    color: #bb2211;
 }
-
 hr {
-	border: none;
-	border-top: #ccc 1px dashed;
+    border: none;
+    border-top: #ccc 1px dashed;
 }
-
 .error {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	color: #bb2211;
-	font-weight: bold;
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    color: #bb2211;
+    font-weight: bold;
 }
-
 .content {
-	padding-left: 20px;
+    padding-left: 20px;
 }
-
 code {
-/*	background-color: #fafafa; */
-	color: #666;
-	background-color: #fffdcf;
+    /*	background-color: #fafafa; */
+    color: #666;
+    background-color: #fffdcf;
 }
-
 textarea, input[type="text"], input[type="password"], input[type="url"] {
-	background: #fdfdfd !important;
-	border: #ddd 1px solid !important;
-	border-radius: 3px !important;
+    background: #fdfdfd !important;
+    border: #ddd 1px solid !important;
+    border-radius: 3px !important;
 }
-
 /*replace "readers" with something else*/
-div.titlebox span.word {
-	display: none;
+ div.titlebox span.word {
+    display: none;
 }
 div.titlebox span.number:after {
-	content: " Red Devils";
+    content:" Red Devils";
 }
-
 /*top bar re-color begins here*/
-#sr-header-area, #sr-more-link {
-	background-color: #1a1a1a;
-	border-bottom: black solid 1px;
+ #sr-header-area, #sr-more-link {
+    background-color: #1a1a1a;
+    border-bottom: black solid 1px;
 }
-
 .sr-bar a, #sr-more-link, .pagename, .dropdown.srdrop .selected {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	color: #f0f0f0;
-	font-size: 10px;
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    color: #f0f0f0;
+    font-size: 10px;
 }
-
 /* annoying RES shortcuts navigation buttons at top right */
-#RESShortcutsEditContainer, #RESShortcutsLeft, #RESShortcutsRight, #RESShortcutsTrash, #RESShortcutsAdd  {
-	background: #1a1a1a !important;
-	color: #fafafa !important;
-	font-size: 14px !important;
+ #RESShortcutsEditContainer, #RESShortcutsLeft, #RESShortcutsRight, #RESShortcutsTrash, #RESShortcutsAdd {
+    background: #1a1a1a !important;
+    color: #fafafa !important;
+    font-size: 14px !important;
 }
-
-.pagename{
-	visibility: hidden;
+.pagename {
+    visibility: hidden;
 }
 .pagename a:before {
-	visibility: visible;
-	content: url(%%srlogo%%);
-	color: white;
+    visibility: visible;
+    content: url(%srlogo%);
+    color: white;
 }
-
 /*End Top bar recolor*/
 
 /*header main background color*/
-#header {
-	background-color: #1a1a1a;
-	background-image:url(%%gingham-header%%);
-	background-repeat: repeat-x;
-	border-bottom: 1px solid black;
-	position: relative;
-	z-index: 99;
+ #header {
+    background-color: #1a1a1a;
+    background-image:url(%gingham-header%);
+    background-repeat: repeat-x;
+    border-bottom: 1px solid black;
+    position: relative;
+    z-index: 99;
 }
-
 /*header user bar*/
-#header-bottom-right {
-	position:absolute;
-	right:10px;
-	bottom:0px;
-	color: white;
-	background: url(%%headerbarsbg%%) repeat;
-	border-radius: 0px !important;
-	padding: 5px 13px;
-
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
-	font-size: 11px;
+ #header-bottom-right {
+    position:absolute;
+    right:10px;
+    bottom:0px;
+    color: white;
+    background: url(%headerbarsbg%) repeat;
+    border-radius: 0px !important;
+    padding: 5px 13px;
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 11px;
 }
-
 .res-navTop {
-padding: 3px !important;
+    padding: 3px !important;
 }
-
 #header-bottom-right a {
-	color:#f1f1f1;
+    color:#f1f1f1;
 }
-
 /*karma color*/
-.user {
-	color:white;
+ .user {
+    color:white;
 }
-
-
 #userbarToggle {
-	color: #fafafa !important;
-	padding-right: 3px !important;
-	display: inline-block !important;
-	background: transparent !important;
-	border: none !important;
+    color: #fafafa !important;
+    padding-right: 3px !important;
+    display: inline-block !important;
+    background: transparent !important;
+    border: none !important;
 }
-
 #mail.havemail {
-	background-image: url(%%sprite%%);
-	background-position: 0px -30px;
+    background-image: url(%sprite%);
+    background-position: 0px -30px;
 }
-
 #modmail.havemail, #modmail.nohavemail {
-	background-image: url(%%sprite%%);
-	height: 14px;
-	top: -1px;
-	left: 1px;
+    background-image: url(%sprite%);
+    height: 14px;
+    top: -1px;
+    left: 1px;
 }
-
 #modmail.nohavemail {
-	background-position: 0px -40px;
+    background-position: 0px -40px;
 }
-
 #modmail.havemail {
-	background-position: 0px -54px;
+    background-position: 0px -54px;
 }
-
 /* "hot top controversial best" */
-#header .tabmenu {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	background: url(%%headerbarsbg%%) repeat;
-	color: #f1f1f1;
-	border: none;
-	font-size: 11px;
-	padding: 5px 5px;
+ #header .tabmenu {
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    background: url(%headerbarsbg%) repeat;
+    color: #f1f1f1;
+    border: none;
+    font-size: 11px;
+    padding: 5px 5px;
 }
-
-#header .tabmenu li.selected a{
-	color:white;
-	font-weight: bold;
-	border: none;
-	background: none;
+#header .tabmenu li.selected a {
+    color:white;
+    font-weight: bold;
+    border: none;
+    background: none;
 }
-
 #header .tabmenu li a {
-	font-weight: normal;
-	background: none;
-	color: white;
+    font-weight: normal;
+    background: none;
+    color: white;
 }
-
 /* hide "gilded" tab */
-.listing-page #header .tabmenu li:nth-of-type(6) {
-	display: none;
+ .listing-page #header .tabmenu li:nth-of-type(6) {
+    display: none;
 }
-
 .side .login-form-side {
-	border-radius: 3px;
-	background: #fafafa;
-	border: #ddd 1px solid;
+    border-radius: 3px;
+    background: #fafafa;
+    border: #ddd 1px solid;
 }
-
 /* inputs on sidebar search, search results page, submit page */
-.side form#search input[name="q"], #search input[type="text"], .roundfield-content input[type="text"], .roundfield-content textarea, .linefield input[type="text"], .linefield textarea {
-	border-radius: 3px;
-	border: 1px solid #ddd;
-	font-size: 14px;
-	padding: 6px 0 6px 3px;
-	margin-bottom: 1px;
+ .side form#search input[name="q"], #search input[type="text"], .roundfield-content input[type="text"], .roundfield-content textarea, .linefield input[type="text"], .linefield textarea {
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    padding: 6px 0 6px 3px;
+    margin-bottom: 1px;
 }
-
 /* Sidebar */
-.side {
-	margin-top: 280px;
+ .side {
+    margin-top: 280px;
 }
-
 .side div.usertext-body .md {
-	overflow: hidden !important;
+    overflow: hidden !important;
 }
-
 .titlebox {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
-	font-size: 11px;
-	color: #333;
-	border: 1px solid #ddd;
-	background: #fafafa;
-	border-radius: 5px !important;
-	padding: 10px 10px 5px 10px;
-	text-align:left;
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 11px;
+    color: #333;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    border-radius: 5px !important;
+    padding: 10px 10px 5px 10px;
+    text-align:left;
 }
-
 .titlebox a {
-	font-weight: bold;
-	color: #bb2211;
+    font-weight: bold;
+    color: #bb2211;
 }
-
 .titlebox a:hover {
-	color: #333;
+    color: #333;
 }
-
 .titlebox h1, .titlebox h2 {
-	text-align: center;
+    text-align: center;
 }
-
 .titlebox .redditname {
-	display:none;
+    display:none;
 }
-
 .titlebox .subscribers, .titlebox .users-online {
-	font-size: 12px;
-	font-weight: bold;
-	text-align: right;
-	margin: 2px 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    margin: 2px 0;
 }
-
 .titlebox .subscribers {
-	width: 150px;
-	display: inline-block;
+    width: 150px;
+    display: inline-block;
 }
-
 .titlebox .users-online {
-	display: inline;
+    display: inline;
 }
 .titlebox .users-online::before {
-	display: none;
+    display: none;
 }
 .titlebox .users-online .number::before {
-	content: " (";
+    content:" (";
 }
 .titlebox .users-online .number::after {
-	content: ")";
+    content:")";
 }
-
 .leavemoderator, .titlebox .toggle {
-	background: transparent !important;
+    background: transparent !important;
 }
-
 .side h1 a[href="#potw"], .side h1 a[href="#caption"] {
-	cursor: default !important;
+    cursor: default !important;
 }
-
 .side h1 a[href="#potw"]:after {
-	background: black url(%%potw%%) no-repeat;
-	background-position: center;
-	display:  inline-block;
-	width: 278px;
-	height: 250px;
-	content: "";
-	box-shadow: #888 0 2px 5px;
-	border: white solid 6px;
-	cursor: default !important;
-
-	position: absolute;
-	top: 134px;
-	right: 10px;
+    background: black url(%potw%) no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 278px;
+    height: 250px;
+    content:"";
+    box-shadow: #888 0 2px 5px;
+    border: white solid 6px;
+    cursor: default !important;
+    position: absolute;
+    top: 134px;
+    right: 10px;
 }
-
 .side h1 a[href="#caption"]:after {
-	position: absolute;
-	right: 16px;
-	width: 268px;
-	color: white;
-	font-size: 11px;
-	line-height: 11px;
-	text-transform: uppercase;
-	text-align: left;
-	background-position: bottom left;
-	background-image: url(%%potwbg%%);
-	display: inline-block;
-	cursor: default !important;
-	padding: 5px;
+    position: absolute;
+    right: 16px;
+    width: 268px;
+    color: white;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    text-align: left;
+    background-position: bottom left;
+    background-image: url(%potwbg%);
+    display: inline-block;
+    cursor: default !important;
+    padding: 5px;
 }
-
 .side h1 a[href="#break"]:after {
-	display: inline-block;
-	width: 280px;
-	content: "";
-	border-bottom: #ccc dashed 1px;
+    display: inline-block;
+    width: 280px;
+    content:"";
+    border-bottom: #ccc dashed 1px;
 }
-
 /* subscribe/unsubscribe button (and accompanying RES buttons) */
-.fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle {
-	padding: 3px 10px !important;
-	background: #b21f1f !important; /* Old browsers */
-	background: -moz-linear-gradient(bottom, #931010, #c42323) !important; /* FF3.6+ */
-	background: -o-linear-gradient(bottom, #931010, #c42323) !important; /* Opera 11.10 up */
-	background: -ms-linear-gradient(bottom, #931010, #c42323) !important; /* IE10 up */
-	background: linear-gradient(to bottom, #931010, #c42323) !important; /* W3C */
-	border: #680202 1px solid !important;
-	color: #ffd431 !important;
-	text-shadow: #670606 0 -1px 0 !important;
+ .fancy-toggle-button .add, .RESshortcutside, .RESDashboardToggle {
+    padding: 3px 10px !important;
+    background: #b21f1f !important;
+    /* Old browsers */
+    background: -moz-linear-gradient(bottom, #931010, #c42323) !important;
+    /* FF3.6+ */
+    background: -o-linear-gradient(bottom, #931010, #c42323) !important;
+    /* Opera 11.10 up */
+    background: -ms-linear-gradient(bottom, #931010, #c42323) !important;
+    /* IE10 up */
+    background: linear-gradient(to bottom, #931010, #c42323) !important;
+    /* W3C */
+    border: #680202 1px solid !important;
+    color: #ffd431 !important;
+    text-shadow: #670606 0 -1px 0 !important;
 }
-
 .fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove {
-	padding: 3px 10px !important;
-	color: #aaa !important;
-	text-shadow: #fafafa 0 1px 0 !important;}
-
+    padding: 3px 10px !important;
+    color: #aaa !important;
+    text-shadow: #fafafa 0 1px 0 !important;
+}
 .titlebox table {
-	width: 95%;
+    width: 95%;
 }
-
-.md table{
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	background: white;
-	box-shadow: 0px 1px 3px #ccc;
-	margin-top: 7px !important;
-	margin-bottom: 10px;
-	border-radius: 3px;
-	font-size: 12px;
-	font-weight: bold;
-	cursor: default;
+.md table {
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    background: white;
+    box-shadow: 0px 1px 3px #ccc;
+    margin-top: 7px !important;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: default;
 }
-
-.md table th{
-	text-align:center;
-	font-size: 11px;
-	color: #f1f1f1;
-	border: none;
-	border-top: #efa7a7 1px solid;
-	padding: 0.6em 0.7em;
-	text-shadow: #611920 0 1px 0;
-
-	background: #a80010 !important; /* Old browsers */
-	background: -moz-linear-gradient(bottom, #a80010, #d53030) !important; /* FF3.6+ */
-	background: -webkit-linear-gradient(bottom, #a80010, #d53030) !important; /* Chrome10 up,Safari5.1+ */
-	background: -ms-linear-gradient(bottom, #a80010, #d53030) !important; /* IE10 up */
-	background: linear-gradient(to bottom, #a80010, #d53030) !important; /* W3C */
+.md table th {
+    text-align:center;
+    font-size: 11px;
+    color: #f1f1f1;
+    border: none;
+    border-top: #efa7a7 1px solid;
+    padding: 0.6em 0.7em;
+    text-shadow: #611920 0 1px 0;
+    background: #a80010 !important;
+    /* Old browsers */
+    background: -moz-linear-gradient(bottom, #a80010, #d53030) !important;
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(bottom, #a80010, #d53030) !important;
+    /* Chrome10 up,Safari5.1+ */
+    background: -ms-linear-gradient(bottom, #a80010, #d53030) !important;
+    /* IE10 up */
+    background: linear-gradient(to bottom, #a80010, #d53030) !important;
+    /* W3C */
 }
-
 .md table td {
-	color: #393939;
-	border: none;
-	border-bottom: 1px solid #e8e8e8;
-	padding: 0.5em;
+    color: #393939;
+    border: none;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0.5em;
 }
-
 .md table tr:hover {
-	background: #f5f5f5;
+    background: #f5f5f5;
 }
-
-.md table strong{
-	color: #bf1720;
-	font-weight: bold;
+.md table strong {
+    color: #bf1720;
+    font-weight: bold;
 }
-
 .titlebox .md table a {
-	cursor: default;
-	color: inherit;
+    cursor: default;
+    color: inherit;
 }
-
 .titlebox ul {
-	list-style: none;
-	margin: 0 !important;
-	text-align: center;
+    list-style: none;
+    margin: 0 !important;
+    text-align: center;
 }
-
 .sidecontentbox ul .icon-menu a {
-	background: none !important;
+    background: none !important;
 }
-
 .sidecontentbox .collapse-button {
-	background: #fafafa !important;
-	border: #ddd 1px solid !important;
-	color: #999 !important;
-	font-weight: bold;
+    background: #fafafa !important;
+    border: #ddd 1px solid !important;
+    color: #999 !important;
+    font-weight: bold;
 }
-
 .sidecontentbox .content {
-	font-size: 10px;
-	border-radius: 3px;
-	border: #ddd 1px solid;
-	background-color: #fafafa;
+    font-size: 10px;
+    border-radius: 3px;
+    border: #ddd 1px solid;
+    background-color: #fafafa;
 }
-
-.sidecontentbox .title h1{
-	font-weight: bold;
-	color: #bb2211;
-	font-size: 12px;
+.sidecontentbox .title h1 {
+    font-weight: bold;
+    color: #bb2211;
+    font-size: 12px;
 }
-
 .sidecontentbox .content a {
-	color: #666;
+    color: #666;
 }
-
 /* submit/community button */
-
-.sidebox.submit .spacer, .sidebox.create .spacer {
-	display: none
+ .sidebox.submit .spacer, .sidebox.create .spacer {
+    display: none
 }
 .morelink a, .morelink a:hover, .morelink:hover {
-	color: #bb2211 !important;
+    color: #bb2211 !important;
 }
-
 .morelink, .fancy-toggle-button .remove, .RESshortcutside.remove, .RESDashboardToggle.remove {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	text-shadow: 0px 1px 0px #fff;
-	background-image: none;
-	border-radius:3px;
-	border: 1px solid #ddd !important;
-
-	background: #e8e8e8 !important; /* Old browsers */
-	background: -moz-linear-gradient(bottom, #eee, #fafafa) !important; /* FF3.6+ */
-	background: -webkit-linear-gradient(bottom, #eee, #fafafa) !important; /* Chrome10 up,Safari5.1+ */
-	background: -o-linear-gradient(bottom, #eee, #fafafa) !important; /* Opera 11.10 up */
-	background: -ms-linear-gradient(bottom, #eee, #fafafa) !important; /* IE10 up */
-	background: linear-gradient(to bottom, #eee, #fafafa) !important; /* W3C */
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    text-shadow: 0px 1px 0px #fff;
+    background-image: none;
+    border-radius:3px;
+    border: 1px solid #ddd !important;
+    background: #e8e8e8 !important;
+    /* Old browsers */
+    background: -moz-linear-gradient(bottom, #eee, #fafafa) !important;
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(bottom, #eee, #fafafa) !important;
+    /* Chrome10 up,Safari5.1+ */
+    background: -o-linear-gradient(bottom, #eee, #fafafa) !important;
+    /* Opera 11.10 up */
+    background: -ms-linear-gradient(bottom, #eee, #fafafa) !important;
+    /* IE10 up */
+    background: linear-gradient(to bottom, #eee, #fafafa) !important;
+    /* W3C */
 }
-
 .morelink:hover {
-	color: #bb2211 !important;
-	border: 1px solid #ddd !important;
-
-	background: #f3f3f3 !important; /* Old browsers */
-	background: -moz-linear-gradient(bottom, #e8e8e8, #f3f3f3) !important; /* FF3.6+ */
-	background: -webkit-linear-gradient(bottom, #e8e8e8, #f3f3f3) !important; /* Chrome10 up,Safari5.1+ */
-	background: -o-linear-gradient(bottom, #e8e8e8, #f3f3f3) !important; /* Opera 11.10 up */
-	background: -ms-linear-gradient(bottom, #e8e8e8, #f3f3f3) !important; /* IE10 up */
-	background: linear-gradient(to bottom, #e8e8e8, #f3f3f3) !important; /* W3C */
+    color: #bb2211 !important;
+    border: 1px solid #ddd !important;
+    background: #f3f3f3 !important;
+    /* Old browsers */
+    background: -moz-linear-gradient(bottom, #e8e8e8, #f3f3f3) !important;
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(bottom, #e8e8e8, #f3f3f3) !important;
+    /* Chrome10 up,Safari5.1+ */
+    background: -o-linear-gradient(bottom, #e8e8e8, #f3f3f3) !important;
+    /* Opera 11.10 up */
+    background: -ms-linear-gradient(bottom, #e8e8e8, #f3f3f3) !important;
+    /* IE10 up */
+    background: linear-gradient(to bottom, #e8e8e8, #f3f3f3) !important;
+    /* W3C */
 }
-
 .morelink .nub {
-	display:none;
+    display:none;
 }
-
 /* end of sidebar
 links styling */
-
-.rank {
-	display:none;
+ .rank {
+    display:none;
 }
-
 .thumbnail.default, .thumbnail.self {
-	background-image: url(%%thumbnail%%);
-	background-position: 0 0;
+    background-image: url(%thumbnail%);
+    background-position: 0 0;
 }
-
 .thumbnail {
-	width: 70px;
-	height: 50px;
+    width: 70px;
+    height: 50px;
 }
-
 .link {
-	padding: 5px;
+    padding: 5px;
 }
-
 .entry {
-	padding-left: 10px !important;
+    padding-left: 10px !important;
 }
-
 .entry .buttons li a {
-	color: #999;
+    color: #999;
 }
-
 .title {
-	padding-bottom: 1px !important;
+    padding-bottom: 1px !important;
 }
-
 .title a {
-	color: #a51018 !important;
+    color: #a51018 !important;
 }
-
 .title a:visited {
-	color: #777 !important;
+    color: #777 !important;
 }
-
 .domain a {
-	color: #999 !important;
+    color: #999 !important;
 }
-
 .tagline .expand {
-	color: #777;
+    color: #777;
 }
-
 .tagline .expand:hover {
-	background-color: #cc2222;
+    background-color: #cc2222;
 }
-
 .tagline a.author {
-	color: #666;
+    color: #666;
 }
-
 .link.last-clicked {
-	border-radius: 3px;
-	border: #ddd solid 1px;
-	background: #fafafa;
+    border-radius: 3px;
+    border: #ddd solid 1px;
+    background: #fafafa;
 }
-
 /* specific threads */
-#siteTable .title[href*="/pre_match_thread"],
-#siteTable .title[href*="/prematch_thread"],
-#siteTable .title[href*="/match_thread"],
-#siteTable .title[href*="/postmatch_thread"],
-#siteTable .title[href*="/post_match_thread"],
-#siteTable .title[href*="/friendly"],
-#siteTable .title[href*="/press_conference"],
-#siteTable .title[href*="/pressconference"],
-#siteTable .title[href*="/u21s"],
-#siteTable .title[href*="/u18s"],
-#siteTable .title[href*="/highlights"],
-#siteTable .title[href*="/pmta"],
-#siteTable .title[href*="/post_match_tactical_analysis"],
-#siteTable .title[href*="/loan_watch"],
-#siteTable .title[href*="/meta_"],
-#siteTable .title[href*="/transfer_round_up"],
-#siteTable .title[href*="/transfer_roundup"],
-#siteTable .title[href*="/round_up_"],
-#siteTable .title[href*="/match_tactics_thread"],
-#siteTable .title[href*="/mtt_"],
-#siteTable .title[href*="/team_news"],
-#siteTable .title[href*="/unpopular_opinions"]
-{
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	padding: 0px 5px;
-	font-weight: bold;
-	color: #a51018 !important;
-	background-color: #fffdcf;
+ #siteTable .title[href*="/pre_match_thread"], #siteTable .title[href*="/prematch_thread"], #siteTable .title[href*="/match_thread"], #siteTable .title[href*="/postmatch_thread"], #siteTable .title[href*="/post_match_thread"], #siteTable .title[href*="/friendly"], #siteTable .title[href*="/press_conference"], #siteTable .title[href*="/pressconference"], #siteTable .title[href*="/u21s"], #siteTable .title[href*="/u18s"], #siteTable .title[href*="/highlights"], #siteTable .title[href*="/pmta"], #siteTable .title[href*="/post_match_tactical_analysis"], #siteTable .title[href*="/loan_watch"], #siteTable .title[href*="/meta_"], #siteTable .title[href*="/transfer_round_up"], #siteTable .title[href*="/transfer_roundup"], #siteTable .title[href*="/round_up_"], #siteTable .title[href*="/match_tactics_thread"], #siteTable .title[href*="/mtt_"], #siteTable .title[href*="/team_news"], #siteTable .title[href*="/unpopular_opinions"] {
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    padding: 0px 5px;
+    font-weight: bold;
+    color: #a51018 !important;
+    background-color: #fffdcf;
 }
-
 #siteTable .title:before, #siteTable .title:before {
-	display:inline-block;
-	margin-right: .5em;
-	margin-bottom: -2px;
-	font-size: 9px;
-	font-weight: bold;
-	padding: 3px 4px;
-
+    display:inline-block;
+    margin-right: .5em;
+    margin-bottom: -2px;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 3px 4px;
 }
-
 /* Hubwub added */
-#siteTable .title[href*="reddit.com/live/"]:before, #siteTable .title[srcurl*="reddit.com/live"]:before 
-{
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	padding: 0px 5px;
-	font-weight: bold;
-	color: #a51018 !important;
-	background-color: #fffdcf;
+ #siteTable .title[href*="reddit.com/live/"]:before, #siteTable .title[srcurl*="reddit.com/live"]:before {
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    padding: 0px 5px;
+    font-weight: bold;
+    color: #a51018 !important;
+    background-color: #fffdcf;
 }
-
-
 #siteTable .title[href*="bbc.co.uk"]:before, #siteTable .title[srcurl*="bbc.co.uk"]:before {
-	content:"BBC";
-	color: #333;
-	background: #ffd431;
+    content:"BBC";
+    color: #333;
+    background: #ffd431;
 }
-
 #siteTable .title[href*="manutd.com"]:before, #siteTable .title[srcurl*="manutd.com"]:before {
-	content:"ManUtd.com";
-	color: #fafafa;
-	background: #bb2211;
+    content:"ManUtd.com";
+    color: #fafafa;
+    background: #bb2211;
 }
-
 #siteTable .title[href*="thebusbybabe.com"]:before, #siteTable .title[srcurl*="thebusbybabe.com"]:before {
-	content:"BusbyBabe";
-	color: #fafafa;
-	background: #bb2211;
+    content:"BusbyBabe";
+    color: #fafafa;
+    background: #bb2211;
 }
-
 #siteTable .title[href*="redmancunian.com"]:before, #siteTable .title[srcurl*="redmancunian.com"]:before {
-	content:"RedMancunian";
-	color: #fafafa;
-	background: #bb2211;
+    content:"RedMancunian";
+    color: #fafafa;
+    background: #bb2211;
 }
-
 #siteTable .title[href*="writtenoffside.com"]:before, #siteTable .title[srcurl*="writtenoffside.com"]:before {
-	content:"WrittenOffside";
-	color: #fafafa;
-	background: #bb2211;
+    content:"WrittenOffside";
+    color: #fafafa;
+    background: #bb2211;
 }
-
 #siteTable .title[href*="therepublikofmancunia.com"]:before, #siteTable .title[srcurl*="therepublikofmancunia.com"]:before {
-	content:"Republik";
-	color: #fafafa;
-	background: #bb2211;
+    content:"Republik";
+    color: #fafafa;
+    background: #bb2211;
 }
-
 #siteTable .title[href*="andersred.blogspot.sg"]:before, #siteTable .title[srcurl*="andersred.blogspot.sg"]:before {
-	content:"AndersRed";
-	color: #fafafa;
-	background: #bb2211;
+    content:"AndersRed";
+    color: #fafafa;
+    background: #bb2211;
 }
-
 #siteTable .title[href*="rreddevils.wordpress.com"]:before, #siteTable .title[srcurl*="rreddevils.wordpress.com"]:before {
-	content:"RedDevils";
-	color: #fafafa;
-	background: #bb2211;
+    content:"RedDevils";
+    color: #fafafa;
+    background: #bb2211;
 }
-
-#siteTable .title[href*="soccernet.espn.go.com"]:before, #siteTable .title[srcurl*="soccernet.espn.go.com"]:before,
-#siteTable .title[href*="espnfc.com"]:before, #siteTable .title[srcurl*="espnfc.com"]:before,
-#siteTable .title[href*="espn.co.uk"]:before, #siteTable .title[srcurl*="espn.co.uk"]:before {
-	content:"ESPN";
-	color: #fafafa;
-	background: #82ca34;
+#siteTable .title[href*="soccernet.espn.go.com"]:before, #siteTable .title[srcurl*="soccernet.espn.go.com"]:before, #siteTable .title[href*="espnfc.com"]:before, #siteTable .title[srcurl*="espnfc.com"]:before, #siteTable .title[href*="espn.co.uk"]:before, #siteTable .title[srcurl*="espn.co.uk"]:before {
+    content:"ESPN";
+    color: #fafafa;
+    background: #82ca34;
 }
-
 #siteTable .title[href*="thefa.com"]:before, #siteTable .title[srcurl*="thefa.com"]:before {
-	content:"FA";
-	color: #fafafa;
-	background: #333;
+    content:"FA";
+    color: #fafafa;
+    background: #333;
 }
-
 #siteTable .title[href*="guardian.co.uk"]:before, #siteTable .title[srcurl*="guardian.co.uk"]:before {
-	content:"Guardian";
-	color: #fafafa;
-	background: #333;
+    content:"Guardian";
+    color: #fafafa;
+    background: #333;
 }
-
 #siteTable .title[href*="independent.co.uk"]:before, #siteTable .title[srcurl*="independent.co.uk"]:before {
-	content:"Independent";
-	color: #fafafa;
-	background: #333;
+    content:"Independent";
+    color: #fafafa;
+    background: #333;
 }
-
 #siteTable .title[href*="skysports.com"]:before, #siteTable .title[srcurl*="skysports.com"]:before {
-	content:"SKY";
-	color: #fafafa;
-	background: #152e6a;
+    content:"SKY";
+    color: #fafafa;
+    background: #152e6a;
 }
-
 #siteTable .title[href*="zonalmarking.net"]:before, #siteTable .title[srcurl*="zonalmarking.net"]:before {
-	content:"ZonalMarking";
-	color: #fafafa;
-	background: #152e6a;
+    content:"ZonalMarking";
+    color: #fafafa;
+    background: #152e6a;
 }
-
 #siteTable .title[href*="football365.com"]:before, #siteTable .title[srcurl*="football365.com"]:before {
-	content:"365";
-	color: #fafafa;
-	background: #152e6a;
+    content:"365";
+    color: #fafafa;
+    background: #152e6a;
 }
-
-
 /* poopy sources */
-#siteTable .title[href*="dailymail.co.uk"]:before, #siteTable .title[srcurl*="dailymail.co.uk"]:before,
-#siteTable .title[href*="mirror.co.uk"]:before, #siteTable .title[srcurl*="mirror.co.uk"]:before,
-#siteTable .title[href*="thesun.co.uk"]:before, #siteTable .title[srcurl*="thesun.co.uk"]:before,
-#siteTable .title[href*="goal.com"]:before, #siteTable .title[srcurl*="goal.com"]:before,
-.linkflair-unreliable .linkflairlabel
-{
-	content:"Unreliable";
-	color: #fafafa;
-	background: #a76e00;
+ #siteTable .title[href*="dailymail.co.uk"]:before, #siteTable .title[srcurl*="dailymail.co.uk"]:before, #siteTable .title[href*="mirror.co.uk"]:before, #siteTable .title[srcurl*="mirror.co.uk"]:before, #siteTable .title[href*="thesun.co.uk"]:before, #siteTable .title[srcurl*="thesun.co.uk"]:before, #siteTable .title[href*="goal.com"]:before, #siteTable .title[srcurl*="goal.com"]:before, .linkflair-unreliable .linkflairlabel {
+    content:"Unreliable";
+    color: #fafafa;
+    background: #a76e00;
 }
-
 /* end of links styling */
+
 /* comments page styling */
 
 /* downvote reminder */
-.comment .arrow.down:hover:before {
-	position: absolute;
-	display: block;
-	z-index: 1000;
-	content: "Please vote on quality, not agreement";
-
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	color: #fafafa;
-	background-color: #222;
-	font-size: 10px;
-	margin-left: 25px;
-	margin-top: -23px;
-	padding: 4px 7px;
+ .comment .arrow.down:hover:before {
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    content:"Please vote on quality, not agreement";
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    color: #fafafa;
+    background-color: #222;
+    font-size: 10px;
+    margin-left: 25px;
+    margin-top: -23px;
+    padding: 4px 7px;
 }
-
 .morecomments a {
-	color: #bb2211;
+    color: #bb2211;
 }
-
 .linkinfo {
-	background: #fafafa;
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	color: #777;
-	font-size: 11px;
-	padding: 10px 10px 5px 10px;
-	border: 1px solid #ddd;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #777;
+    font-size: 11px;
+    padding: 10px 10px 5px 10px;
+    border: 1px solid #ddd;
 }
-
 .linkinfo .date {
-	color: #777;
+    color: #777;
 }
-
 .linkinfo .downvotes .number, .linkinfo .upvotes .number, .linkinfo .score .number {
-	font-size: 20px !important;
-	display: block;
-	font-weight: normal !important;
+    font-size: 20px !important;
+    display: block;
+    font-weight: normal !important;
 }
 .linkinfo .score .word {
-	display: none;
+    display: none;
 }
 .linkinfo .score {
-	font-size: 11px;
-	color: #aaa !important;
-	display: block;
-	min-width: 59px;
+    font-size: 11px;
+    color: #aaa !important;
+    display: block;
+    min-width: 59px;
 }
 .linkinfo .downvotes .word, .linkinfo .upvotes .word {
-	font-size: 11px;
-	color: #aaa;
+    font-size: 11px;
+    color: #aaa;
 }
 .linkinfo .upvotes, .linkinfo .downvotes, .linkinfo .score {
-	float: left;
-	padding: 5px 10px 5px 0;
-	margin: 8px 10px 10px 0;
+    float: left;
+    padding: 5px 10px 5px 0;
+    margin: 8px 10px 10px 0;
 }
 .linkinfo .score, .linkinfo .upvotes {
-	border-right: 1px solid #ddd;
+    border-right: 1px solid #ddd;
 }
 .linkinfo .score .number {
-	color: #363636;
+    color: #363636;
 }
 .linkinfo .upvotes .number {
-	color: #82ca34;
+    color: #82ca34;
 }
 .linkinfo .downvotes .number {
-	color: #dd2211;
+    color: #dd2211;
 }
 .linkinfo .shortlink {
-	clear: both;
-	font-size: 10px;
-	margin-top: 10px
+    clear: both;
+    font-size: 10px;
+    margin-top: 10px
 }
 .linkinfo .shortlink input {
-	background: #fff;
-	border-top: 2px solid #f2f2f2;
-	border: none;
-	border-radius: 3px;
-	padding-left: 8px;
-	font-size: 10px;
-	color: #aaa;
+    background: #fff;
+    border-top: 2px solid #f2f2f2;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    font-size: 10px;
+    color: #aaa;
 }
-
 .res_comment_ups {
-	color: #dd2211 !important;
+    color: #dd2211 !important;
 }
-
-.res_comment_downs
-{
-	color: #6baddf !important;
+.res_comment_downs {
+    color: #6baddf !important;
 }
-
 /* e.g. "all 26 comments" */
-.panestack-title {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
-	color: #555;
-	border-bottom:none;
+ .panestack-title {
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    color: #555;
+    border-bottom:none;
 }
-
 .infobar {
-	border: #ddd 1px solid;
-	background: #f6f6f6;
-	border-radius: 3px;
-	margin-bottom: 15px;
+    border: #ddd 1px solid;
+    background: #f6f6f6;
+    border-radius: 3px;
+    margin-bottom: 15px;
 }
-
 blockquote {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-style: italic;
-	border-left: #dd2211 3px solid !important;
-	background: #fafafa;
-	padding: 3px 20px !important;
-	color: #777;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    border-left: #dd2211 3px solid !important;
+    background: #fafafa;
+    padding: 3px 20px !important;
+    color: #777;
 }
-
 .comment .child, .comment .showreplies {
-	border-left: #ddd 1px dashed !important;
+    border-left: #ddd 1px dashed !important;
 }
-
 /* self post text box */
-#siteTable div.usertext-body div.md {
-	background: #fafafa;
-	border: #ddd 1px solid;
-	border-radius: 3px;
-	padding-top: 2px !important;
+ #siteTable div.usertext-body div.md {
+    background: #fafafa;
+    border: #ddd 1px solid;
+    border-radius: 3px;
+    padding-top: 2px !important;
 }
-
 /* comment writing text area */
-.commentarea textarea {
-	background: #fafafa;
-	border: #ddd 1px solid;
-	border-radius: 3px;
+ .commentarea textarea {
+    background: #fafafa;
+    border: #ddd 1px solid;
+    border-radius: 3px;
 }
-
 /* space comments out more */
-.commentarea .entry {
-	margin-bottom: 20px !important;
+ .commentarea .entry {
+    margin-bottom: 20px !important;
 }
-
 /* hilighted comment style
    (e.g. after clicking "permalink",
 	'new' comments and visits box(reddit Gold feature))
    also Submit page notice */
-.comment .usertext.border .usertext-body,
-.content.submit .info-notice,
-.new-comment .usertext-body,
-.gold-accent.comment-visits-box
-{
-	border: #f1eab1 1px solid !important;
-	background: #fffce8 !important;
-	border-radius: 3px;
+ .comment .usertext.border .usertext-body, .content.submit .info-notice, .new-comment .usertext-body, .gold-accent.comment-visits-box {
+    border: #f1eab1 1px solid !important;
+    background: #fffce8 !important;
+    border-radius: 3px;
 }
-
 /* thread submitter [S] */
-.submitter {
-	color: #bb2211 !important;
+ .submitter {
+    color: #bb2211 !important;
 }
-
 .userattrs {
-	visibility: hidden;
+    visibility: hidden;
 }
-
 .userattrs .submitter, .userattrs .admin, .userattrs .moderator, .userattrs .friend {
-	visibility: visible;
-	border-radius: 2px;
-	padding: 1px 3px;
-	color: white !important;
-	margin: 0 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	font-weight: bold;
-	padding-top: 0px !important;
+    visibility: visible;
+    border-radius: 2px;
+    padding: 1px 3px;
+    color: white !important;
+    margin: 0 0;
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    font-weight: bold;
+    padding-top: 0px !important;
 }
-
 .userattrs .submitter, .userattrs .admin {
-	background: #bb2211;
+    background: #bb2211;
 }
-
 .userattrs .moderator {
-	background: #82ca34;
+    background: #82ca34;
 }
-
 .userattrs .friend {
-	background: #ffd431;
+    background: #ffd431;
 }
-
 /* link scores */
-#siteTable .link .score {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	font-size: 14px;
-	padding-left: 1px;
+ #siteTable .link .score {
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    font-size: 14px;
+    padding-left: 1px;
 }
-
 #siteTable .compressed.link .score {
-	font-size: 11px;
+    font-size: 11px;
 }
-
 #siteTable .link .score.likes {
-	color: #dd2211;
+    color: #dd2211;
 }
-
 #siteTable .link .score.dislikes {
-	color: #6baddf;
+    color: #6baddf;
 }
-
 /* replacement upvote/downvote arrows */
-.arrow.upmod {
-	background-image: url(%%sprite%%);
-	background-position: 0 0;
+ .arrow.upmod {
+    background-image: url(%sprite%);
+    background-position: 0 0;
 }
-
 .arrow.downmod {
-	background-image: url(%%sprite%%);
-	background-position: 0 -15px;
+    background-image: url(%sprite%);
+    background-position: 0 -15px;
 }
-
 /* dropdown (e.g. on "top" posts page) */
-
-.drop-choices {
-	font-weight: bold;
-	color: #333;
-	border: 1px solid #ddd;
-	background: #fafafa;
-	border-radius: 3px;
-	padding: 3px;
-	box-shadow: 0px 1px 3px #ddd;
+ .drop-choices {
+    font-weight: bold;
+    color: #333;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    border-radius: 3px;
+    padding: 3px;
+    box-shadow: 0px 1px 3px #ddd;
 }
-
 .drop-choices a.choice:hover {
-	color: #bb2211;
-	background: #e6e6e6;
-	border-radius: 2px;
+    color: #bb2211;
+    background: #e6e6e6;
+    border-radius: 2px;
 }
-
 /* new/rising at top of "new" posts page */
-
-.content .menuarea {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	border-bottom: #ddd 1px dashed;
-	padding-bottom: 8px;
+ .content .menuarea {
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    border-bottom: #ddd 1px dashed;
+    padding-bottom: 8px;
 }
-
 .content .menuarea .flat-list .selected a {
-	color: #bb2211;
+    color: #bb2211;
 }
-
 .content .menuarea .flat-list a {
-	color: #555;
+    color: #555;
 }
-
 /* search results page */
-.searchpane {
-	background: #f1f1f1;
-	border: #ddd solid 1px;
-	border-radius: 3px;
-	padding: 10px 15px;
+ .searchpane {
+    background: #f1f1f1;
+    border: #ddd solid 1px;
+    border-radius: 3px;
+    padding: 10px 15px;
 }
-
 .search-summary {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	padding: 0px;
-	margin: 10px 15px 0 0;
-	font-size: 12px;
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    padding: 0px;
+    margin: 10px 15px 0 0;
+    font-size: 12px;
 }
-
 .searchfacets {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	box-shadow: none;
-	border: #ddd 1px solid;
-	border-bottom-right-radius: 3px;
-	border-bottom-left-radius: 3px;
-	background: #f1f1f1;
-	margin-top: -9px;
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    box-shadow: none;
+    border: #ddd 1px solid;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: #f1f1f1;
+    margin-top: -9px;
 }
-
 .searchfacets .list a {
-	font-weight: bold;
+    font-weight: bold;
 }
-
 .pretty-button {
-	padding: 2px 7px !important;
-	font-weight: bold;
-	font-size: 11px;
+    padding: 2px 7px !important;
+    font-weight: bold;
+    font-size: 11px;
 }
-
 .pretty-button.positive {
-	border: #568920 1px solid !important;
-	color: #eaffd6 !important;
-	text-shadow: #3d6706 0 -1px 0 !important;
-
-	background: #7dc133 !important; /* Old browsers */
-	background: -moz-linear-gradient(bottom, #689b31, #82ca34) !important; /* FF3.6+ */
-	background: -webkit-linear-gradient(bottom, #689b31, #82ca34) !important; /* Chrome10 up,Safari5.1+ */
-	background: -o-linear-gradient(bottom, #689b31, #82ca34) !important; /* Opera 11.10 up */
-	background: -ms-linear-gradient(bottom, #689b31, #82ca34) !important; /* IE10 up */
-	background: linear-gradient(to bottom, #689b31, #82ca34) !important; /* W3C */
+    border: #568920 1px solid !important;
+    color: #eaffd6 !important;
+    text-shadow: #3d6706 0 -1px 0 !important;
+    background: #7dc133 !important;
+    /* Old browsers */
+    background: -moz-linear-gradient(bottom, #689b31, #82ca34) !important;
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(bottom, #689b31, #82ca34) !important;
+    /* Chrome10 up,Safari5.1+ */
+    background: -o-linear-gradient(bottom, #689b31, #82ca34) !important;
+    /* Opera 11.10 up */
+    background: -ms-linear-gradient(bottom, #689b31, #82ca34) !important;
+    /* IE10 up */
+    background: linear-gradient(to bottom, #689b31, #82ca34) !important;
+    /* W3C */
 }
-
 .pretty-button.negative {
-	border: #680202 1px solid !important;
-	color: #ffe8dd !important;
-	text-shadow: #670606 0 -1px 0 !important;
-
-	background: #b21f1f !important; /* Old browsers */
-	background: -moz-linear-gradient(bottom, #931010, #c42323) !important; /* FF3.6+ */
-	background: -webkit-linear-gradient(bottom, #931010, #c42323) !important; /* Chrome10 up,Safari5.1+ */
-	background: -o-linear-gradient(bottom, #931010, #c42323) !important; /* Opera 11.10 up */
-	background: -ms-linear-gradient(bottom, #931010, #c42323) !important; /* IE10 up */
-	background: linear-gradient(to bottom, #931010, #c42323) !important; /* W3C */
+    border: #680202 1px solid !important;
+    color: #ffe8dd !important;
+    text-shadow: #670606 0 -1px 0 !important;
+    background: #b21f1f !important;
+    /* Old browsers */
+    background: -moz-linear-gradient(bottom, #931010, #c42323) !important;
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(bottom, #931010, #c42323) !important;
+    /* Chrome10 up,Safari5.1+ */
+    background: -o-linear-gradient(bottom, #931010, #c42323) !important;
+    /* Opera 11.10 up */
+    background: -ms-linear-gradient(bottom, #931010, #c42323) !important;
+    /* IE10 up */
+    background: linear-gradient(to bottom, #931010, #c42323) !important;
+    /* W3C */
 }
-
 /* Submit and moderator pages */
-.roundfield, .linefield, .formtabs-content .infobar {
-	color: #333;
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	border-radius: 3px;
-	background: #fafafa;
-	border: #e8e8e8 1px solid;
-	padding: 5px 10px;
+ .roundfield, .linefield, .formtabs-content .infobar {
+    color: #333;
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    border-radius: 3px;
+    background: #fafafa;
+    border: #e8e8e8 1px solid;
+    padding: 5px 10px;
 }
-
 .roundfield a, .linefield a, .linefield .title {
-	color: #bb2211;
-	font-weight: bold;
+    color: #bb2211;
+    font-weight: bold;
 }
-
 .roundfield #suggested-reddits a {
-	color: #999;
+    color: #999;
 }
-
 .formtabs-content {
-	border-top-color: #bb2211;
+    border-top-color: #bb2211;
 }
-
 .tabmenu.formtab .selected a {
-	background: #bb2211;
+    background: #bb2211;
 }
-
 .tabmenu.formtab a {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	font-weight: bold;
-	color: #bb2211;
-	background: #f1f1f1;
-	border-top: #ddd 1px solid;
-	border-right: #ddd 1px solid;
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    font-weight: bold;
+    color: #bb2211;
+    background: #f1f1f1;
+    border-top: #ddd 1px solid;
+    border-right: #ddd 1px solid;
 }
-
 .info-notice {
-	height: 50px;
+    height: 50px;
 }
-
 .info-notice:after {
-	width: 500px;
-	position: absolute;
-	display: block;
-	z-index: 1000;
-
-	margin-top: 5px;
-	font-size: 13px;
-	font-weight: bold;
-	content: "...and please check to see if your question has already been answered in one of the links in the sidebar before submitting!";
+    width: 500px;
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    content:"...and please check to see if your question has already been answered in one of the links in the sidebar before submitting!";
 }
-
 /* Footer */
-.footer {
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-	background-color: #fafafa;
-	border: #ddd 1px solid;
+ .footer {
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    background-color: #fafafa;
+    border: #ddd 1px solid;
 }
-
 .footer-parent {
-	padding-top: 250px;
-	background: url(%%fullcrest%%) top center no-repeat;
+    padding-top: 250px;
+    background: url(%fullcrest%) top center no-repeat;
 }
-
-
 /*RES overlay */
-#RESMainGearOverlay {
-	/*myhoedit */
-	position: absolute;
-	display: none;
-	width: 27px;
-	height: 24px;
-	border: 1px solid #bf1720;
-	border-bottom: 1px solid #bf1720;
-	background-color: #bf1720;
-	z-index: 10000;
+ #RESMainGearOverlay {
+    /*myhoedit */
+    position: absolute;
+    display: none;
+    width: 27px;
+    height: 24px;
+    border: 1px solid #bf1720;
+    border-bottom: 1px solid #bf1720;
+    background-color: #bf1720;
+    z-index: 10000;
 }
-
 .RESDropdownList {
-	/*myhoedit */
-	list-style-type: none;
-	background-color: #bf1720;
-	width: 180px;
-	border: 1px solid #bf1720;
-	border-bottom: none;
-	margin-top: -1px;
+    /*myhoedit */
+    list-style-type: none;
+    background-color: #bf1720;
+    width: 180px;
+    border: 1px solid #bf1720;
+    border-bottom: none;
+    margin-top: -1px;
 }
-
 .RESDropdownList li {
-	/*myhoedit */
-	cursor: pointer;
-	border-bottom: 1px solid #640c11;
-	height: 35px;
-	line-height: 34px;
-	font-weight: bold;
-	color: #C9DEF2;
-	padding-left: 10px;
+    /*myhoedit */
+    cursor: pointer;
+    border-bottom: 1px solid #640c11;
+    height: 35px;
+    line-height: 34px;
+    font-weight: bold;
+    color: #C9DEF2;
+    padding-left: 10px;
 }
-
 /* scoreboard */
-.side .titlebox .md table:nth-of-type(1) {
-	box-shadow: none;
-	background: none !important;
-	border: none;
-	width: 350px;
-	position: absolute;
-	z-index: 100;
-	top: 42px;
-	right: 0%;
-	text-transform: uppercase;
+ .side .titlebox .md table:nth-of-type(1) {
+    box-shadow: none;
+    background: none !important;
+    border: none;
+    width: 350px;
+    position: absolute;
+    z-index: 100;
+    top: 42px;
+    right: 0%;
+    text-transform: uppercase;
 }
-
 .side .titlebox .md table:nth-of-type(1) tr td {
-	border: none;
-	font-size: 0.8em;
-	color: #eee;
-	padding: 5px;
+    border: none;
+    font-size: 0.8em;
+    color: #eee;
+    padding: 5px;
 }
-
 .side .titlebox .md table:nth-of-type(1) em {
-	color: #c72412 !important;
-	font-style: normal !important;
-	font-weight: bold;
+    color: #c72412 !important;
+    font-style: normal !important;
+    font-weight: bold;
 }
-
 .side .titlebox .md table:nth-of-type(1) tr td:nth-of-type(2) {
-	font-weight: bold;
-	color: white;
+    font-weight: bold;
+    color: white;
 }
-
 .side .titlebox .md table:nth-of-type(1) tr {
-	background: url(%%headerbarsbg%%) !important;
+    background: url(%headerbarsbg%) !important;
 }
-
 .side .titlebox .md table:nth-of-type(1) a {
-	cursor: pointer;
+    cursor: pointer;
 }
-
-.side .titlebox .md table:nth-of-type(1) thead{
-	display: none !important;
+.side .titlebox .md table:nth-of-type(1) thead {
+    display: none !important;
 }
-
 /* wiki */
-.wiki-page .wiki-page-content .md.wiki .toc ul {
-	border-radius: 5px;
-	background: #fafafa;
-	border-left: #ddd 1px dashed !important;
+ .wiki-page .wiki-page-content .md.wiki .toc ul {
+    border-radius: 5px;
+    background: #fafafa;
+    border-left: #ddd 1px dashed !important;
 }
-
-.wiki-page .wiki-page-content .md.wiki &gt; .toc &gt; ul {
-	border: #ddd 1px solid !important;
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+.wiki-page .wiki-page-content .md.wiki &gt;
+ .toc &gt;
+ ul {
+    border: #ddd 1px solid !important;
+    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
 }
-
 .wiki-page .wiki-page-content .md.wiki .toc li {
-	margin-bottom: .5em;
+    margin-bottom: .5em;
 }
-
 .wiki-page .pageactions {
-	font-weight: bold;
-	color: #333;
-	border: 1px solid #ddd !important;
-	background: #fafafa;
-	border-radius: 5px !important;
-	padding: 3px;
+    font-weight: bold;
+    color: #333;
+    border: 1px solid #ddd !important;
+    background: #fafafa;
+    border-radius: 5px !important;
+    padding: 3px;
 }
-
 .wiki-page .pageactions .wikiaction:hover {
-	background: #eee !important;
-	border-radius: 3px !important;
+    background: #eee !important;
+    border-radius: 3px !important;
 }
-
 .wiki-page .pageactions .wikiaction-current {
-	color: #bb2211 !important;
-	background: #e6e6e6 !important;
-	border-radius: 3px !important;
+    color: #bb2211 !important;
+    background: #e6e6e6 !important;
+    border-radius: 3px !important;
 }
-
 /* flair */
-.linkflairlabel {
-	border: none !important;
-	padding: 2px 5px;
-	font-weight: bold;
-	font-size: 9px;
-	border-radius: 0px;
+ .linkflairlabel {
+    border: none !important;
+    padding: 2px 5px;
+    font-weight: bold;
+    font-size: 9px;
+    border-radius: 0px;
 }
-
 .sitetable.linklisting .flair, .sidecontentbox .content .flair {
-	display: none !important;
-	width: 0px !important;
-	height: 0px !important;
-	margin-bottom: inherit !important;
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    margin-bottom: inherit !important;
 }
-
-.flair , a[href='#jersey1'], a[href='#jersey10'], a[href='#jersey11'], a[href='#jersey12'], a[href='#jersey13'], a[href='#jersey14'], a[href='#jersey15'], a[href='#jersey16'], a[href='#jersey17'], a[href='#jersey18'], a[href='#jersey19'], a[href='#jersey2'], a[href='#jersey20'], a[href='#jersey21'], a[href='#jersey22'], a[href='#jersey23'], a[href='#jersey24'], a[href='#jersey25'], a[href='#jersey26'], a[href='#jersey27'], a[href='#jersey28'], a[href='#jersey29'], a[href='#jersey3'], a[href='#jersey30'], a[href='#jersey31'], a[href='#jersey32'], a[href='#jersey33'], a[href='#jersey34'], a[href='#jersey35'], a[href='#jersey38'], a[href='#jersey4'], a[href='#jersey40'], a[href='#jersey44'], a[href='#jersey5'], a[href='#jersey50'], a[href='#jersey6'],  a[href='#jersey7'],  a[href='#jersey8'],  a[href='#SAF']{
-	border: none !important;
-	padding:0px;
-	display:inline-block;
-	overflow:hidden;
-	width: 18px;
-	height: 15px;
-	margin-bottom: -3px;
-	background: url(%%flairsprites%%) no-repeat -9999px -9999px;
-	text-indent: -9999px;
+.flair, a[href='#jersey1'], a[href='#jersey10'], a[href='#jersey11'], a[href='#jersey12'], a[href='#jersey13'], a[href='#jersey14'], a[href='#jersey15'], a[href='#jersey16'], a[href='#jersey17'], a[href='#jersey18'], a[href='#jersey19'], a[href='#jersey2'], a[href='#jersey20'], a[href='#jersey21'], a[href='#jersey22'], a[href='#jersey23'], a[href='#jersey24'], a[href='#jersey25'], a[href='#jersey26'], a[href='#jersey27'], a[href='#jersey28'], a[href='#jersey29'], a[href='#jersey3'], a[href='#jersey30'], a[href='#jersey31'], a[href='#jersey32'], a[href='#jersey33'], a[href='#jersey34'], a[href='#jersey35'], a[href='#jersey38'], a[href='#jersey4'], a[href='#jersey40'], a[href='#jersey44'], a[href='#jersey5'], a[href='#jersey50'], a[href='#jersey6'], a[href='#jersey7'], a[href='#jersey8'], a[href='#SAF'] {
+    border: none !important;
+    padding:0px;
+    display:inline-block;
+    overflow:hidden;
+    width: 18px;
+    height: 15px;
+    margin-bottom: -3px;
+    background: url(%flairsprites%) no-repeat -9999px -9999px;
+    text-indent: -9999px;
 }
-.flair-1, a[href='#jersey1']{ 
-	background-position: 0 0;  
-} 
-.flair-10, a[href='#jersey10']{ 
-	background-position: 0 -17px;  
-} 
-.flair-11, a[href='#jersey11']{ 
-	background-position: 0 -34px;  
-} 
-.flair-12, a[href='#jersey12']{ 
-	background-position: 0 -51px;  
-} 
-.flair-13, a[href='#jersey13']{ 
-	background-position: 0 -68px;  
-} 
-.flair-14, a[href='#jersey14']{ 
-	background-position: 0 -85px;  
-} 
-.flair-15, a[href='#jersey15']{ 
-	background-position: 0 -102px;  
-} 
-.flair-16, a[href='#jersey16']{ 
-	background-position: 0 -119px;  
-} 
-.flair-17, a[href='#jersey17']{ 
-	background-position: 0 -136px;  
-} 
-.flair-18, a[href='#jersey18']{ 
-	background-position: 0 -153px;  
-} 
-.flair-19, a[href='#jersey19']{ 
-	background-position: 0 -170px;  
-} 
-.flair-2, a[href='#jersey2']{ 
-	background-position: 0 -187px;  
-} 
-.flair-20, a[href='#jersey20']{ 
-	background-position: 0 -204px;  
-} 
-.flair-21, a[href='#jersey21']{ 
-	background-position: 0 -221px;  
-} 
-.flair-22, a[href='#jersey22']{ 
-	background-position: 0 -238px;  
-} 
-.flair-23, a[href='#jersey23']{ 
-	background-position: 0 -255px;  
-} 
-.flair-24, a[href='#jersey24']{ 
-	background-position: 0 -272px;  
-} 
-.flair-25, a[href='#jersey25']{ 
-	background-position: 0 -289px;  
-} 
-.flair-26, a[href='#jersey26']{ 
-	background-position: 0 -306px;  
-} 
-.flair-27, a[href='#jersey27']{ 
-	background-position: 0 -323px;  
-} 
-.flair-28, a[href='#jersey28']{ 
-	background-position: 0 -340px;  
-} 
-.flair-29, a[href='#jersey29']{ 
-	background-position: 0 -357px;  
-} 
-.flair-3, a[href='#jersey3']{ 
-	background-position: 0 -374px;  
-} 
-.flair-30, a[href='#jersey30']{ 
-	background-position: 0 -391px;  
-} 
-.flair-31, a[href='#jersey31']{ 
-	background-position: 0 -408px;  
-} 
-.flair-32, a[href='#jersey32']{ 
-	background-position: 0 -425px;  
-} 
-.flair-33, a[href='#jersey33']{ 
-	background-position: 0 -442px;  
-} 
-.flair-34, a[href='#jersey34']{ 
-	background-position: 0 -459px;  
-} 
+.flair-1, a[href='#jersey1'] {
+    background-position: 0 0;
+}
+.flair-10, a[href='#jersey10'] {
+    background-position: 0 -17px;
+}
+.flair-11, a[href='#jersey11'] {
+    background-position: 0 -34px;
+}
+.flair-12, a[href='#jersey12'] {
+    background-position: 0 -51px;
+}
+.flair-13, a[href='#jersey13'] {
+    background-position: 0 -68px;
+}
+.flair-14, a[href='#jersey14'] {
+    background-position: 0 -85px;
+}
+.flair-15, a[href='#jersey15'] {
+    background-position: 0 -102px;
+}
+.flair-16, a[href='#jersey16'] {
+    background-position: 0 -119px;
+}
+.flair-17, a[href='#jersey17'] {
+    background-position: 0 -136px;
+}
+.flair-18, a[href='#jersey18'] {
+    background-position: 0 -153px;
+}
+.flair-19, a[href='#jersey19'] {
+    background-position: 0 -170px;
+}
+.flair-2, a[href='#jersey2'] {
+    background-position: 0 -187px;
+}
+.flair-20, a[href='#jersey20'] {
+    background-position: 0 -204px;
+}
+.flair-21, a[href='#jersey21'] {
+    background-position: 0 -221px;
+}
+.flair-22, a[href='#jersey22'] {
+    background-position: 0 -238px;
+}
+.flair-23, a[href='#jersey23'] {
+    background-position: 0 -255px;
+}
+.flair-24, a[href='#jersey24'] {
+    background-position: 0 -272px;
+}
+.flair-25, a[href='#jersey25'] {
+    background-position: 0 -289px;
+}
+.flair-26, a[href='#jersey26'] {
+    background-position: 0 -306px;
+}
+.flair-27, a[href='#jersey27'] {
+    background-position: 0 -323px;
+}
+.flair-28, a[href='#jersey28'] {
+    background-position: 0 -340px;
+}
+.flair-29, a[href='#jersey29'] {
+    background-position: 0 -357px;
+}
+.flair-3, a[href='#jersey3'] {
+    background-position: 0 -374px;
+}
+.flair-30, a[href='#jersey30'] {
+    background-position: 0 -391px;
+}
+.flair-31, a[href='#jersey31'] {
+    background-position: 0 -408px;
+}
+.flair-32, a[href='#jersey32'] {
+    background-position: 0 -425px;
+}
+.flair-33, a[href='#jersey33'] {
+    background-position: 0 -442px;
+}
+.flair-34, a[href='#jersey34'] {
+    background-position: 0 -459px;
+}
 .flair-35, a[href='#jersey35'] {
-	background-position: 0 -476px;  
-} 
-.flair-38, a[href='#jersey38']{ 
-	background-position: 0 -493px;  
-} 
-.flair-4, a[href='#jersey4']{ 
-	background-position: 0 -510px;  
-} 
-.flair-40, a[href='#jersey40']{ 
-	background-position: 0 -527px;  
-} 
-.flair-44, a[href='#jersey44']{ 
-	background-position: 0 -544px;  
-} 
-.flair-5, a[href='#jersey5']{ 
-	background-position: 0 -561px;  
-} 
-.flair-50, a[href='#jersey50']{ 
-	background-position: 0 -578px;  
-} 
-.flair-6, a[href='#jersey6']{ 
-	background-position: 0 -595px;  
-} 
-.flair-7, a[href='#jersey7']{ 
-	background-position: 0 -612px;  
-} 
-.flair-8, a[href='#jersey8']{ 
-	background-position: 0 -629px;  
-} 
-.flair-SAF, a[href='#SAF']{ 
-	background-position: 0 -646px;  
-}  
-
-.flair-UNITED,a[href$="#arsenal"] , a[href$="#astonvilla"] ,a[href$="#cardiff"] ,a[href$="#chelsea"] , a[href$="#crystalpalace"] ,a[href$="#everton"], a[href$="#fulham"] , a[href$="#hullcity"] , a[href$="#lfc"] , a[href$="#mcfc"] , a[href$="#united"] , a[href$="#newcastle"] , a[href$="#norwich"] ,  a[href$="#southampton"] , a[href$="#stoke"] , a[href$="#sunderland"] , a[href$="#swansea"] , a[href$="#tottenham"], a[href$="#westbrom"] ,a[href$="#westham"] {
-	border: none !important;
-	padding:0px;
-	display:inline-block;
-	overflow:hidden;
-	width: 18px;
-	height: 25px;
-	margin-bottom: -3px;
-	background: url(%%plclubs%%) no-repeat -9999px -9999px;
-	text-indent: -9999px;
+    background-position: 0 -476px;
 }
-
-a[href$="#arsenal"] { 
-	background-position: 0px 0px; 
-	width: 21px; 
-} 
-a[href$="#astonvilla"] { 
-	background-position: 0px -25px; 
-	width: 18px; 
-} 
-a[href$="#cardiff"] { 
-	background-position: 0px -50px; 
-	width: 18px; 
-} 
-a[href$="#chelsea"] { 
-	background-position: 0px -75px; 
-	width: 25px; 
-} 
-a[href$="#crystalpalace"] { 
-	background-position: 0px -100px; 
-	width: 19px; 
-} 
-a[href$="#everton"] { 
-	background-position: 0px -125px; 
-	width: 23px; 
-} 
-a[href$="#fulham"] { 
-	background-position: 0px -150px; 
-	width: 19px; 
-} 
-a[href$="#hullcity"] { 
-	background-position: 0px -175px; 
-	width: 27px; 
-} 
-a[href$="#lfc"] { 
-	background-position: 0px -200px; 
-	width: 18px; 
-} 
-a[href$="#mcfc"] { 
-	background-position: 0px -225px; 
-	width: 21px; 
-} 
-.flair-UNITED, a[href$="#united"] { 
-	background-position: 0px -250px; 
-	width: 25px; 
-} 
-a[href$="#newcastle"] { 
-	background-position: 0px -275px; 
-	width: 23px; 
-} 
-a[href$="#norwich"] { 
-	background-position: 0px -300px; 
-	width: 22px; 
-} 
-a[href$="#southampton"] { 
-	background-position: 0px -325px; 
-	width: 21px; 
-} 
-a[href$="#stoke"] { 
-	background-position: 0px -350px; 
-	width: 21px; 
-} 
-a[href$="#sunderland"] { 
-	background-position: 0px -375px!important; 
-	width: 30px; 
-} 
-a[href$="#swansea"] { 
-	background-position: 0px -400px; 
-	width: 25px; 
-} 
-a[href$="#tottenham"] { 
-	background-position: 0px -425px; 
-	width: 12px; 
-} 
-a[href$="#westbrom"] { 
-	background-position: 0px -450px; 
-	width: 21px; 
-} 
-a[href$="#westham"] { 
-	background-position: 0px -475px; 
-	width: 26px; 
-} 
-
+.flair-38, a[href='#jersey38'] {
+    background-position: 0 -493px;
+}
+.flair-4, a[href='#jersey4'] {
+    background-position: 0 -510px;
+}
+.flair-40, a[href='#jersey40'] {
+    background-position: 0 -527px;
+}
+.flair-44, a[href='#jersey44'] {
+    background-position: 0 -544px;
+}
+.flair-5, a[href='#jersey5'] {
+    background-position: 0 -561px;
+}
+.flair-50, a[href='#jersey50'] {
+    background-position: 0 -578px;
+}
+.flair-6, a[href='#jersey6'] {
+    background-position: 0 -595px;
+}
+.flair-7, a[href='#jersey7'] {
+    background-position: 0 -612px;
+}
+.flair-8, a[href='#jersey8'] {
+    background-position: 0 -629px;
+}
+.flair-SAF, a[href='#SAF'] {
+    background-position: 0 -646px;
+}
+.flair-UNITED, a[href$="#arsenal"], a[href$="#astonvilla"], a[href$="#cardiff"], a[href$="#chelsea"], a[href$="#crystalpalace"], a[href$="#everton"], a[href$="#fulham"], a[href$="#hullcity"], a[href$="#lfc"], a[href$="#mcfc"], a[href$="#united"], a[href$="#newcastle"], a[href$="#norwich"], a[href$="#southampton"], a[href$="#stoke"], a[href$="#sunderland"], a[href$="#swansea"], a[href$="#tottenham"], a[href$="#westbrom"], a[href$="#westham"] {
+    border: none !important;
+    padding:0px;
+    display:inline-block;
+    overflow:hidden;
+    width: 18px;
+    height: 25px;
+    margin-bottom: -3px;
+    background: url(%plclubs%) no-repeat -9999px -9999px;
+    text-indent: -9999px;
+}
+a[href$="#arsenal"] {
+    background-position: 0px 0px;
+    width: 21px;
+}
+a[href$="#astonvilla"] {
+    background-position: 0px -25px;
+    width: 18px;
+}
+a[href$="#cardiff"] {
+    background-position: 0px -50px;
+    width: 18px;
+}
+a[href$="#chelsea"] {
+    background-position: 0px -75px;
+    width: 25px;
+}
+a[href$="#crystalpalace"] {
+    background-position: 0px -100px;
+    width: 19px;
+}
+a[href$="#everton"] {
+    background-position: 0px -125px;
+    width: 23px;
+}
+a[href$="#fulham"] {
+    background-position: 0px -150px;
+    width: 19px;
+}
+a[href$="#hullcity"] {
+    background-position: 0px -175px;
+    width: 27px;
+}
+a[href$="#lfc"] {
+    background-position: 0px -200px;
+    width: 18px;
+}
+a[href$="#mcfc"] {
+    background-position: 0px -225px;
+    width: 21px;
+}
+.flair-UNITED, a[href$="#united"] {
+    background-position: 0px -250px;
+    width: 25px;
+}
+a[href$="#newcastle"] {
+    background-position: 0px -275px;
+    width: 23px;
+}
+a[href$="#norwich"] {
+    background-position: 0px -300px;
+    width: 22px;
+}
+a[href$="#southampton"] {
+    background-position: 0px -325px;
+    width: 21px;
+}
+a[href$="#stoke"] {
+    background-position: 0px -350px;
+    width: 21px;
+}
+a[href$="#sunderland"] {
+    background-position: 0px -375px!important;
+    width: 30px;
+}
+a[href$="#swansea"] {
+    background-position: 0px -400px;
+    width: 25px;
+}
+a[href$="#tottenham"] {
+    background-position: 0px -425px;
+    width: 12px;
+}
+a[href$="#westbrom"] {
+    background-position: 0px -450px;
+    width: 21px;
+}
+a[href$="#westham"] {
+    background-position: 0px -475px;
+    width: 26px;
+}
 /* RES Night mode */
-
-.res-nightmode .titlebox {
-	background: #222 !important;
+ .res-nightmode .titlebox {
+    background: #222 !important;
 }
-
 .res-nightmode blockquote {
-	background: #333 !important;
+    background: #333 !important;
 }
-
 .res-navTop {
-        padding:0px !important;
+    padding:0px !important;
 }
-
 /* Match Thread Icons */
 
 /* Icons */
-#siteTable a[href^="//#"] {
- display: inline-block;
- width: 16px;
- height: 16px;
- line-height: normal;
- background-repeat: no-repeat;
- background-image: url(%%icons%%);
- vertical-align: middle;
- padding: 0;
- border-width: 0;
- background-color: transparent;
- cursor: default;
+ #siteTable a[href^="//#"] {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: normal;
+    background-repeat: no-repeat;
+    background-image: url(%icons%);
+    vertical-align: middle;
+    padding: 0;
+    border-width: 0;
+    background-color: transparent;
+    cursor: default;
 }
-#siteTable  a[href^="//#"][href$="-big"] {
- width: 16px;
- height: 16px;
- line-height: 16px;
- background-image: url(%%icons%%);
+#siteTable a[href^="//#"][href$="-big"] {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background-image: url(%icons%);
 }
 #siteTable .comment a[href^="//#"] {
- display: none!important;
+    display: none!important;
 }
- 
-a[href^="//#ball"], a[href^="//#goal"]{
-	background-position: 0 0;
+a[href^="//#ball"], a[href^="//#goal"] {
+    background-position: 0 0;
 }
-a[href^="//#clock"],a[href^="//#stoptwatch"],a[href^="//#time"]{
-	background-position: 0 -34px;
+a[href^="//#clock"], a[href^="//#stoptwatch"], a[href^="//#time"] {
+    background-position: 0 -34px;
 }
-a[href^="//#down"],a[href^="//#off"],a[href^="//#suboff"]{
-	background-position: 0 -68px;
+a[href^="//#down"], a[href^="//#off"], a[href^="//#suboff"] {
+    background-position: 0 -68px;
 }
-a[href^="//#flag"],a[href^="//#offside"]{
-	background-position: 0 -102px;
+a[href^="//#flag"], a[href^="//#offside"] {
+    background-position: 0 -102px;
 }
-a[href^="//#info"]{
-	background-position: 0 -136px;
+a[href^="//#info"] {
+    background-position: 0 -136px;
 }
-a[href^="//#net"]{
-	background-position: 0 -170px;
+a[href^="//#net"] {
+    background-position: 0 -170px;
 }
-a[href^="//#news"]{
-	background-position: 0 -204px;
+a[href^="//#news"] {
+    background-position: 0 -204px;
 }
-a[href^="//#notes"]{
-	background-position: 0 -238px;
+a[href^="//#notes"] {
+    background-position: 0 -238px;
 }
-a[href^="//#red"],a[href^="//#redcard"]{
-	background-position: 0 -306px;
+a[href^="//#red"], a[href^="//#redcard"] {
+    background-position: 0 -306px;
 }
-a[href^="//#red-ball"],a[href^="//#owngoal"]{
-	background-position: 0 -272px;
+a[href^="//#red-ball"], a[href^="//#owngoal"] {
+    background-position: 0 -272px;
 }
-a[href^="//#stream"]{
-	background-position: 0 -374px;
+a[href^="//#stream"] {
+    background-position: 0 -374px;
 }
-a[href^="//#sub"], a[href^="//#substitution"]{
-	background-position: 0 -408px;
+a[href^="//#sub"], a[href^="//#substitution"] {
+    background-position: 0 -408px;
 }
-a[href^="//#up"], a[href^="//#on"], a[href^="//#subon"]{
-	background-position: 0 -442px;
+a[href^="//#up"], a[href^="//#on"], a[href^="//#subon"] {
+    background-position: 0 -442px;
 }
-a[href^="//#whistle"], a[href^="//#foul"]{
-	background-position: 0 -476px;
+a[href^="//#whistle"], a[href^="//#foul"] {
+    background-position: 0 -476px;
 }
-a[href^="//#yellow"], a[href^="//#yellowcard"]{
-	background-position: 0 -510px;
+a[href^="//#yellow"], a[href^="//#yellowcard"] {
+    background-position: 0 -510px;
 }
 .md a[href*="youtube.com/watch"], .md a[href*="youtu.be/"], .md a[href*="vimeo.com/"], .md a[href*="twitvid.com/"], .md a[href*="/video/"], .md a[href*="/gvideos/"], .md a[href*="gfycat.com/"] {
-	 background-image: url(%%icons%%);
-	 background-repeat: no-repeat;
-	 background-position: left center;
-	 padding-left: 20px;
-	 background-position: 0 -340px;
+    background-image: url(%icons%);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    background-position: 0 -340px;
 }

@@ -63,7 +63,7 @@ Southampton  | 1 : 1 | *Man Utd* | [Pre](http://www.reddit.com/r/reddevils/comme
 ***
 **Links**
 
-[ManUtd](http://www.manutd.com/Splash-Page.aspx) | [Twitter](https://twitter.com/ManUtd) | [Facebook](http://www.facebook.com/manchesterunited?fref=ts) | [r/soccer](http://www.reddit.com/r/soccer/) | [r/football](http://www.reddit.com/r/football/) | [r/premierleague](http://www.reddit.com/r/premierleague/) | [Stretford End](http://www.stretfordend.co.uk/)
+[ManUtd](http://www.manutd.com/Splash-Page.aspx) | [Twitter](https://twitter.com/ManUtd) | [Facebook](http://www.facebook.com/manchesterunited?fref=ts) |  | [Stretford End](http://www.stretfordend.co.uk/)
 
 ***
 
