@@ -640,6 +640,8 @@ Upvotes
     height: 17px;
     background-position: 0 0;
 }
+
+
 /* 
 Content
 ------------------------------------- 
@@ -707,89 +709,190 @@ Content
 .deepthread:before, .deepthread:after {
     display: none!important;
 }
-/* Link Listing
-------------------------------------- */
- .content #siteTable .linklisting {
-    padding: 5px 325px 0px 20px;
-    background:#FFF;
+
+/* 
+  Link Listing
+------------------------------------- 
+*/
+
+#siteTable_organic {
+  margin: 0 5px !important;
 }
-.content #siteTable .linklisting .link {
-    margin-left: 5px;
-    margin-right: 310px;
-    padding: 10px 8px 12px;
+
+.organic-listing,
+.thing.link.stickied,
+.thing.link.promoted {
+  overflow: hidden !important;
+  border-color: #fff !important;
+  background: none #edf5ff !important;
+  box-shadow: 0 1px 3px 0 #ccb !important;
+  margin-right: 300px !important;
 }
-.content #siteTable .linklisting .rank, .content #siteTable .linklisting .thumbnail, .content #siteTable .linklisting .flair {
-    display: none !important;
-    width: 0px !important;
-    height: 0px !important;
-    margin-bottom: inherit !important;
+
+.thing.link.stickied {
+  background: none #fffeed !important;
+  margin-right: 300px !important;
+
 }
-.content #siteTable .linklisting .thing {
-    padding: 15px 0px 5px 10px;
-    background: #fff;
-    border: 1px solid #EAEAEA;
-    margin: 5px 0px 0px 0px;
+
+  .thing.link.stickied a.title {
+    color: #50722b !important;
+  }
+
+.listing-page .link:first-child.stickied {
+  border-width: 1px 0 1px 1px !important;
 }
-.content #siteTable .linklisting .thing .midcol {
-    padding: 0;
-    margin: 0;
-    width: 12px;
-    position: relative;
-    top: -6px;
+
+.linklisting .thing {
+  overflow: hidden !important;
+  margin-right: 300px !important;
+  padding: 2px 0 0 !important;
+  padding-right: 10px;
+  border: 1px solid #EAEAEA !important;
+  border-width: 1px 0 !important;
+  background-color: #fefefd !important;
+  box-shadow: 0 1px 3px 0 #ccb !important;
 }
-.content #siteTable .linklisting .thing .score {
-    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
-    margin-left: 3px;
-    margin-right: 1px;
-    font-size: 12px !important;
+
+.linklisting .compressed.thing {
+  padding: 3px 0 0 !important;
 }
-.content #siteTable .linklisting .thing .score.likes {
-    color: #bb2211;
+
+.linklisting .odd {
+  background-color: #fbfbfb!important;
 }
-.content #siteTable .linklisting .thing .score.dislikes {
-    color: #92c4e8;
+
+.linklisting .even {
+  background-color: #f8f8f8!important;
 }
-.content #siteTable .linklisting .thing .entry {
-    padding-left: 44px;
-    margin: 0;
+
+.link.last-clicked {
+  background-color: #f5f5f5 !important;
+  background-image: linear-gradient(#f8f8f8,#f5f5f5) !important;
 }
-.content #siteTable .linklisting .thing .title a {
-    color: #950a1f;
-    font-size: 16px;
+
+.link .expando {
+  margin: 0 !important;
 }
-.content #siteTable .linklisting .thing .title a:hover {
-    color: #730017;
+
+.linklisting div.thing.comment {
+  margin: 0 0 5px !important;
+  padding: 5px 0 5px 10px !important;
+  font-size: 11px !important;
 }
-.content #siteTable .linklisting .thing .title .domain, .content #siteTable .linklisting .thing .title .domain a {
-    position: relative;
-    top: -1px;
-    font-size: 11px;
-    color: #999999;
-    text-transform: lowercase;
+
+
+.link .score.likes {
+  color: #dd2211;
 }
-.content #siteTable .linklisting .thing .tagline, .content #siteTable .linklisting .thing .tagline a, .content #siteTable .linklisting .thing .flat-list, .content #siteTable .linklisting .thing .flat-list ul {
-    display: inline;
-    font-size: 11px;
-    color: #999999;
+
+.link .score.dislikes {
+  color: #6baddf;
 }
-.content #siteTable .linklisting .thing.self .title {
-    padding-left: 12px;
+
+
+.sitetable {
+  padding: 5px !important;
 }
-.content #siteTable .linklisting .thing.self .expando-button {
-    position: relative;
-    top: -20px;
-    margin: 0;
-    height: 18px;
-    width: 18px;
-    z-index: 99;
-    background: url(%%sprite%%);
-    background-position: -160px 4px;
+
+  .sitetable .sitetable {
+    padding: 0 !important;
+  }
+
+.link .rank {
+  margin: 14px 0 0 5px !important;
+  padding: 10px 5px 0 !important;
+  background-color: transparent !important;
+  color: #ccb !important;
+  font-size: small !important;
+  text-align: right !important;
 }
-.content #siteTable .linklisting .thing.self .expando-button:hover {
-    background-position: -180px 4px;
-    cursor: pointer;
+
+.link.compressed .rank {
+  margin-top: 5px !important;
 }
-.content #siteTable .linklisting .thing.self .tagline {
-    left: -18px;
-    position: relative;
+
+.link .midcol {
+  margin: 5px 10px !important;
+}
+
+.link.compressed .midcol {
+  margin: 5px !important;
+}
+
+.thumbnail.self,
+.thumbnail.default {
+  background-image: url(%%thumbnail%%);
+  background-position: 0 0;
+}
+
+.thumbnail {
+  height: 75px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.listing-page .thumbnail {
+  max-height: 50px !important;
+}
+
+.entry {
+  margin: 0 !important;
+  padding: 3px 5px !important;
+}
+
+.compressed .entry {
+  padding: 2px 5px 2px 2px !important;
+}
+
+.link .title {
+  overflow: visible !important;
+  margin: 0 .4em 2px 0 !important;
+  font-size: 125% !important;
+  line-height: 1.3 !important;
+}
+
+.link.compressed .title {
+  margin: -1px .4em 1px 0 !important;
+  font-size: 123% !important;
+}
+
+.link .usertext .md {
+  padding-right: 15px !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+#progressIndicator.neverEndingReddit,
+div.NERPageMarker,
+div#NERFail,
+#endOfReddit {
+  margin: 0;
+  padding: 10px 0;
+  width: auto;
+  border-width: 0;
+  border-radius: 0;
+  background-color: transparent !important;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+
+#progressIndicator.neverEndingReddit,
+div#NERFail,
+#endOfReddit {
+  color: #a90404;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.entry.RES-keyNav-activeElement,
+.entry:hover {
+  padding-right: 2px !important;
+  outline: 0 !important;
+  border: 0 !important;
+  border-right: 3px solid #950A1F !important;
 }
