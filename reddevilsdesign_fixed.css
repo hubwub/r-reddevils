@@ -4,7 +4,7 @@ GENERAL
 */
  body {
     font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    width: 100%;
+    width: 100%%;
     background: #FFF;
 }
 a, a:visited {
@@ -30,7 +30,7 @@ POTW
     cursor: default !important;
 }
 .side h1 a[href="#potw"]:after {
-    background: black url(%potw%) no-repeat;
+    background: black url(%%potw%%) no-repeat;
     background-position: center;
     display: inline-block;
     width: 278px;
@@ -54,7 +54,7 @@ POTW
     text-align: left;
     border-radius: 3px;
     background-position: bottom left;
-    background-image: url(%potwbg%);
+    background-image: url(%%potwbg%%);
     display: inline-block;
     cursor: default !important;
     padding: 5px;
@@ -63,7 +63,7 @@ POTW
     display: inline-block;
     width: 295px;
     height: 102px;
-    background-image: url(%transfers%);
+    background-image: url(%%transfers%%);
     margin: 10px 0 0 0;
     border-radius: 3px;
 }
@@ -162,7 +162,7 @@ SIDEBAR
 }
 .side .sidebox.submit div.morelink {
     border: 0;
-    background-image: url(%submit%);
+    background-image: url(%%submit%%);
     background-position: 0 0;
     background-repeat: no-repeat;
     font-weight: 300;
@@ -190,7 +190,7 @@ SIDEBAR
 }
 .side .sidebox.submit div.morelink {
     border: 0;
-    background-image: url(%submit%);
+    background-image: url(%%submit%%);
     background-position: 0 0;
     background-repeat: no-repeat;
     font-weight: 300;
@@ -231,7 +231,7 @@ form#search input[type=text] {
     width: 300px;
     height: 36px;
     color: #FFF;
-    background: url(%submit%);
+    background: url(%%submit%%);
     letter-spacing: normal;
     line-height: 40px;
     text-indent: 10px;
@@ -252,14 +252,14 @@ SCOREBOARD
     width: 350px;
     position: absolute;
     z-index: 100;
-    top: 42px;
-    right: 0%;
+    top: 40px;
+    right: 30px;
     text-transform: uppercase;
 }
 .side .titlebox .md table:nth-of-type(1) tr td {
     border: none;
-    font-size: 0.8em;
-    color: #888;
+    font-size: 0.8em !important;
+    color: #1a1a1a;
     padding: 5px;
 }
 .side .titlebox .md table:nth-of-type(1) em {
@@ -278,13 +278,16 @@ SCOREBOARD
 .side .titlebox .md table:nth-of-type(1) thead {
     display: none !important;
 }
+
+.side .titlebox .md table:nth-of-type(1) tr:hover {
+    background: #8a081a !important;
+}
 /* 
 SIDETABLE
 ------------------------------------- 
 */
  .side.md table {
     width: 275px;
-    font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
     background: white;
     box-shadow: 0px 1px 3px #ccc;
     margin-top: 7px !important;
@@ -321,9 +324,11 @@ SIDETABLE
     border-bottom: 1px solid #e8e8e8;
     padding: 0.5em;
 }
+
 .side .md table tr:hover {
     background: #f5f5f5;
 }
+
 .side .md table strong {
     color: #bf1720;
     font-weight: bold;
@@ -434,7 +439,7 @@ Subreddit Header Section
 }
 #header .pagename a:before {
     visibility: visible;
-    content: url(%sr-logo%);
+    content: url(%%sr-logo%%);
     color: #fff;
 }
 #header .tabmenu {
@@ -576,25 +581,25 @@ Upvotes
 ------------------------------------- 
 */
  .arrow.upmod {
-    background: url(%upm%) no-repeat 0 0;
+    background: url(%%upm%%) no-repeat 0 0;
     width: 13px;
     height: 17px;
     background-position: 0 0;
 }
 .arrow.downmod {
-    background: url(%dwm%) no-repeat 0 0;
+    background: url(%%dwm%%) no-repeat 0 0;
     width: 13px;
     height: 17px;
     background-position: 0 0;
 }
 .arrow.up {
-    background: url(%up%) no-repeat 0 0;
+    background: url(%%up%%) no-repeat 0 0;
     width: 13px;
     height: 17px;
     background-position: 0 0;
 }
 .arrow.down {
-    background: url(%dw%) no-repeat 0 0;
+    background: url(%%dw%%) no-repeat 0 0;
     width: 13px;
     height: 17px;
     background-position: 0 0;
@@ -741,7 +746,7 @@ Content
     height: 18px;
     width: 18px;
     z-index: 99;
-    background: url(%sprite%);
+    background: url(%%sprite%%);
     background-position: -160px 4px;
 }
 .content #siteTable .linklisting .thing.self .expando-button:hover {

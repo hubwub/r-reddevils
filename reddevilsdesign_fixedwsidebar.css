@@ -184,7 +184,7 @@ body.res #header #header-bottom-right {
 }
 #header .pagename a:before {
     visibility: visible;
-    content: url(%sr-logo%);
+    content: url(%%sr-logo%%);
     color: #fff;
 }
 #header .tabmenu {
@@ -256,7 +256,7 @@ body.res #header #header-bottom-right {
     height: 16px;
     width: 16px;
     margin: 0;
-    background-image: url(%sprite%);
+    background-image: url(%%sprite%%);
 }
 .sitetable.linklisting .thing .arrow.up {
     background-position: 0px 5px;
@@ -304,7 +304,7 @@ body.res #header #header-bottom-right {
     height: 18px;
     width: 18px;
     z-index: 99;
-    background: url(%sprite%);
+    background: url(%%sprite%%);
     background-position: -160px 4px;
 }
 .sitetable.linklisting .thing.self .expando-button:hover {
@@ -496,7 +496,7 @@ body.res #header #header-bottom-right {
     background-image: none;
 }
 .side .titlebox .md table {
-    width: 100%;
+    width: 100%%;
     cursor: default;
     /* scoreboard */
 }
@@ -568,7 +568,7 @@ body.res #header #header-bottom-right {
     cursor: default !important;
 }
 .side h1 a[href="#potw"]:after {
-    background: #fff url(%potw%) no-repeat;
+    background: #fff url(%%potw%%) no-repeat;
     background-position: center;
     display: inline-block;
     width: 305px;
@@ -581,7 +581,7 @@ body.res #header #header-bottom-right {
     right: 0;
 }
 .side h1 a[href="#potw-overlay"]:after {
-    background: transparent url(%potw-overlay%) no-repeat;
+    background: transparent url(%%potw-overlay%%) no-repeat;
     background-position: center;
     display: inline-block;
     width: 305px;
