@@ -503,10 +503,10 @@ Subreddit List on the Top
  #sr-header-area {
     height: 29px;
     line-height: 29px;
-    color: #950a1f;
+    color: white;
 }
 #sr-header-area a, a:visited {
-    color: #8a081a;
+    color: white;
 }
 #sr-header-area {
     height: 29px;
@@ -520,16 +520,16 @@ Subreddit List on the Top
     line-height: 29px;
 }
 #sr-header-area #srLeftContainer.sr-bar span.separator {
-    color: #8a081a!important;
+    color: white!important;
 }
 #sr-header-area a, #sr-header-area a:visited {
-    color: #8a081a;
-}
-#sr-header-area a:hover {
     color: white;
 }
+#sr-header-area a:hover {
+    color: #8a081a;
+}
 #sr-header-area .separator {
-    color: #8a081a !important;
+    color: white !important;
 }
 #RESShortcutsEditContainer {
     width: 75px;
@@ -542,7 +542,7 @@ Subreddit List on the Top
 }
 #RESShortcutsSort, #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
     background-color: #1a1a1a!important;
-    color: #950a1f !important;
+    color: white !important;
     height: 29px !important;
     line-height: 29px !important;
 }
@@ -563,7 +563,7 @@ Subreddit List on the Top
     display: none;
     position: absolute;
     padding: 3px;
-    background-color: #8A081A !important;
+    background-color: #1a1a1a !important;
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
@@ -580,7 +580,7 @@ Subreddit List on the Top
     display: none;
     position: absolute;
     padding: 3px;
-    background-color: #8A081A !important;
+    background-color: #1a1a1a !important;
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
@@ -598,7 +598,7 @@ Subreddit List on the Top
 #sr-header-area #sr-more-link {
     height: 29px;
     line-height: 29px;
-    color: #950A1F;
+    color: white;
     background: #1a1a1a;
 }
 /* 
