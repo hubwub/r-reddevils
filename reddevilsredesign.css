@@ -447,7 +447,7 @@ Subreddit Header Section
 */
  #header {
     background-color: #950a1f;
-    border-bottom: 55px #8a081a solid;
+    border-bottom: 55px #1a1a1a solid;
     height: 125px;
 }
 #header #header-bottom-left {
@@ -470,8 +470,8 @@ Subreddit Header Section
     top: 87px !important;
     font-weight: 700;
     text-transform: uppercase;
-    background: #8A081A !important;
-    color: #5a0910;
+    background: #1a1a1a !important;
+    color: #fff;
     border: none;
     font-size: 12px;
 }
@@ -479,18 +479,18 @@ Subreddit Header Section
     margin-left: 0px;
 }
 #header .tabmenu li.selected a {
-    color: #fff;
+    color: #950A1F;
     font-weight: 700;
     border: none !important;
     background: none !important;
 }
 #header .tabmenu li a {
     background: none;
-    color: #5a0910;
+    color: #fff;
     padding: 20px 15px;
 }
 #header .tabmenu li a:hover {
-    color: #fff;
+    color: #5a0910;
 }
 #header-img {
     margin-top: 10px;
