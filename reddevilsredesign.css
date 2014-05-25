@@ -2,7 +2,7 @@
 POTW
 ------------------------------------- 
 */
-.side h1 a[href="#caption"]:after, {
+ .side h1 a[href="#caption"]:after, {
     top: 415px;
     /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
     content:"players' player and fan's player of the year, well deserved, David de gea!"
@@ -48,10 +48,11 @@ POTW
     border-radius: 3px;
 }
 /* Announcement */
+
 /* To set the announcement, add the following to the top of the sidebar:
 "#[Text to be shown on the announcement banner](FULL_REDDIT.COM_URL_TO_ANNOUNCEMENT_POST_HERE)"
 e.g. "#[Text to be shown on the announcement banner](http://www.reddit.com/r/reddevils/comments/1ugtdh/best_of_rreddevils_for_2013_results/)" */
-.titlebox h1 a[href="http://www.reddit.com/r/reddevils/comments/1ugtdh/best_of_rreddevils_for_2013_results/"] {
+ .titlebox h1 a[href="http://www.reddit.com/r/reddevils/comments/1ugtdh/best_of_rreddevils_for_2013_results/"] {
     bottom: 0px;
     /* if it's *really* important, change this to "top: 0px;" */
     position: fixed;
@@ -88,11 +89,12 @@ e.g. "#[Text to be shown on the announcement banner](http://www.reddit.com/r/red
 BODY
 ------------------------------------- 
 */
+
 /* 
 GENERAL
 ------------------------------------- 
 */
-body {
+ body {
     font-family:"Open Sans", sans-serif;
     width: 100%%;
     background: #FFF;
@@ -161,7 +163,7 @@ textarea, input[type="text"], input[type="password"], input[type="url"] {
 SIDEBAR
 ------------------------------------- 
 */
-.side {
+ .side {
     margin-top: 275px;
 }
 .side div.bottom {
@@ -269,7 +271,7 @@ form#search input[type=text] {
 SCOREBOARD
 ------------------------------------- 
 */
-.side .titlebox .md table:nth-of-type(1) {
+ .side .titlebox .md table:nth-of-type(1) {
     box-shadow: none;
     background: #8a081a !important;
     border: none;
@@ -309,7 +311,7 @@ SCOREBOARD
 SIDETABLE
 ------------------------------------- 
 */
-.side.md table {
+ .side.md table {
     width: 275px;
     background: white;
     margin-top: 7px !important;
@@ -329,6 +331,15 @@ SIDETABLE
     padding: 0.6em 0.7em;
     text-shadow: #611920 0 1px 0;
     background: #a80010 !important;
+    /* Old browsers */
+    background: -moz-linear-gradient(bottom, #a80010, #d53030) !important;
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(bottom, #a80010, #d53030) !important;
+    /* Chrome10 up,Safari5.1+ */
+    background: -ms-linear-gradient(bottom, #a80010, #d53030) !important;
+    /* IE10 up */
+    background: linear-gradient(to bottom, #a80010, #d53030) !important;
+    /* W3C */
 }
 .side .md table td {
     width: 275px;
@@ -375,7 +386,7 @@ SIDETABLE
 User Notification Bar
 ------------------------------------- 
 */
-sr-more-link {
+ sr-more-link {
     background-color: #950a1f;
 }
 .drop-choices a.choice {
@@ -434,7 +445,7 @@ body.res #header #header-bottom-right {
 Subreddit Header Section
 ------------------------------------- 
 */
-#header {
+ #header {
     background-color: #950a1f;
     border-bottom: 55px #8a081a solid;
     height: 125px;
@@ -489,7 +500,7 @@ Subreddit Header Section
 Subreddit List on the Top
 ------------------------------------- 
 */
-#sr-header-area {
+ #sr-header-area {
     height: 29px;
     line-height: 29px;
     color: #950a1f;
@@ -594,7 +605,7 @@ Subreddit List on the Top
 Upvotes
 ------------------------------------- 
 */
-.arrow.upmod {
+ .arrow.upmod {
     background: url(%%upm%%) no-repeat 0 0;
     width: 13px;
     height: 17px;
@@ -638,7 +649,7 @@ Upvotes
 Content
 ------------------------------------- 
 */
-.content {
+ .content {
     margin: 20px;
 }
 .commentarea .panestack-title, .NERPageMaker, .infobar {
@@ -705,7 +716,7 @@ Content
   Link Listing
 ------------------------------------- 
 */
-#siteTable_organic {
+ #siteTable_organic {
     margin: 0 5px !important;
 }
 .organic-listing, .thing.link.stickied, .thing.link.promoted {
@@ -830,7 +841,7 @@ Content
 Flair Link Listing
 ------------------------------------- 
 */
-.flairoptionpane .linkflairlabel {
+ .flairoptionpane .linkflairlabel {
     color:black !important;
     display: inline-block;
 }
@@ -884,103 +895,100 @@ Flair Link Listing
 .thing.linkflair-twitter a.thumbnail {
     background-position: -48px -48px;
 }
-
-.flair-UNITED,.md td a[href*="/r/Gunners"]  , .md td a[href*="/r/avfc"] ,.md td a[href*="/r/bluebirds"] ,.md td a[href*="/r/chelseafc"] , .md td a[href*="/r/crystalpalace"] ,.md td a[href*="/r/Everton"], .md td a[href*="/r/FulhamFC"] , .md td a[href*="/r/HullCity"] , .md td a[href*="/r/LiverpoolFC"] , .md td a[href*="/r/MCFC"] , .md td a[href*="/r/reddevils"], .md td a[href*="/r/nufc"] , .md td a[href*="/r/NorwichCity"] ,  .md td a[href*="/r/SaintsFC"] , .md td a[href*="/r/StokeCityFC"] , .md td a[href*="/r/SAFC"]  , .md td a[href*="/r/swanseacity"] , .md td a[href*="/r/coys"], .md td a[href*="/r/WBAfootball"] ,.md td a[href*="/r/Hammers"]{
-      height: 20px !important;
-      padding-left: 25px;
-      display: inline-block;
-      background: url(%%plcrests%%) no-repeat -9999px -9999px transparent;
-      line-height: 20px !important;
-      color: #BBB;
-      display: inline-block;
+.flair-UNITED, .md td a[href*="/r/Gunners"], .md td a[href*="/r/avfc"], .md td a[href*="/r/bluebirds"], .md td a[href*="/r/chelseafc"], .md td a[href*="/r/crystalpalace"], .md td a[href*="/r/Everton"], .md td a[href*="/r/FulhamFC"], .md td a[href*="/r/HullCity"], .md td a[href*="/r/LiverpoolFC"], .md td a[href*="/r/MCFC"], .md td a[href*="/r/reddevils"], .md td a[href*="/r/nufc"], .md td a[href*="/r/NorwichCity"], .md td a[href*="/r/SaintsFC"], .md td a[href*="/r/StokeCityFC"], .md td a[href*="/r/SAFC"], .md td a[href*="/r/swanseacity"], .md td a[href*="/r/coys"], .md td a[href*="/r/WBAfootball"], .md td a[href*="/r/Hammers"] {
+    height: 20px !important;
+    padding-left: 50px;
+    display: inline-block;
+    background: url(%%plcrests%%) no-repeat -9999px -9999px transparent;
+    line-height: 20px;
+    color: #BBB;
+    display: inline-block;
 }
-
-.md td a[href*="/r/Gunners"] { 
-  background-position: 0px 0px; 
-  width: 21px; 
-} 
-.md td a[href*="/r/avfc"] { 
-  background-position: 0px -25px; 
-  width: 18px; 
-} 
-.md td a[href*="/r/bluebirds"] { 
-  background-position: 0px -50px; 
-  width: 18px; 
-} 
-.md td a[href*="/r/chelseafc"] { 
-  background-position: 0px -75px; 
-  width: 25px; 
-} 
-.md td a[href*="/r/crystalpalace"] { 
-  background-position: 0px -100px; 
-  width: 19px; 
-} 
-.md td a[href*="/r/Everton"] { 
-  background-position: 0px -125px; 
-  width: 23px; 
-} 
-.md td a[href*="/r/FulhamFC"] { 
-  background-position: 0px -150px; 
-  width: 19px; 
-} 
-.md td a[href*="/r/HullCity"] { 
-  background-position: 0px -175px; 
-  width: 27px; 
-} 
-.md td a[href*="/r/LiverpoolFC"] { 
-  background-position: 0px -200px; 
-  width: 18px; 
-} 
-.md td a[href*="/r/MCFC"] { 
-  background-position: 0px -225px; 
-  width: 21px; 
-} 
-.flair-UNITED, .md td a[href*="/r/reddevils"] { 
-  background-position: 0px -250px; 
-  width: 25px; 
-} 
-.md td a[href*="/r/nufc"] { 
-  background-position: 0px -275px; 
-  width: 23px; 
-} 
-.md td a[href*="/r/NorwichCity"] { 
-  background-position: 0px -300px; 
-  width: 22px; 
-} 
-.md td a[href*="/r/SaintsFC"] { 
-  background-position: 0px -325px; 
-  width: 21px; 
-} 
-.md td a[href*="/r/StokeCityFC"] { 
-  background-position: 0px -350px; 
-  width: 21px; 
-} 
-.md td a[href*="/r/SAFC"] { 
-  background-position: 0px -375px!important; 
-  width: 30px; 
-} 
-.md td a[href*="/r/swanseacity"] { 
-  background-position: 0px -400px; 
-  width: 25px; 
-} 
-.md .td a[href*="/r/coys"] { 
-  background-position: 0px -425px; 
-  width: 12px; 
-} 
-.md td a[href*="/r/WBAfootball"] { 
-  background-position: 0px -450px; 
-  width: 21px; 
-} 
-.md td a[href*="/r/Hammers"] { 
-  background-position: 0px -475px; 
-  width: 26px; 
-} 
-
+.md td a[href*="/r/Gunners"] {
+    background-position: 0px 0px!important;
+    width: 21px!important;
+}
+.md td a[href*="/r/avfc"] {
+    background-position: 0px -25px!important;
+    width: 18px!important;
+}
+.md td a[href*="/r/bluebirds"] {
+    background-position: 0px -50px!important;
+    width: 18px!important;
+}
+.md td a[href*="/r/chelseafc"] {
+    background-position: 0px -75px!important;
+    width: 25px!important;
+}
+.md td a[href*="/r/crystalpalace"] {
+    background-position: 0px -100px!important;
+    width: 19px!important;
+}
+.md td a[href*="/r/Everton"] {
+    background-position: 0px -125px!important;
+    width: 23px!important;
+}
+.md td a[href*="/r/FulhamFC"] {
+    background-position: 0px -150px!important;
+    width: 19px!important;
+}
+.md td a[href*="/r/HullCity"] {
+    background-position: 0px -175px!important;
+    width: 27px!important;
+}
+.md td a[href*="/r/LiverpoolFC"] {
+    background-position: 0px -200px!important;
+    width: 18px!important;
+}
+.md td a[href*="/r/MCFC"] {
+    background-position: 0px -225px!important;
+    width: 21px!important;
+}
+.flair-UNITED, .md td a[href*="/r/reddevils"] {
+    background-position: 0px -250px!important;
+    width: 25px!important;
+}
+.md td a[href*="/r/nufc"] {
+    background-position: 0px -275px!important;
+    width: 23px!important;
+}
+.md td a[href*="/r/NorwichCity"] {
+    background-position: 0px -300px!important;
+    width: 22px!important;
+}
+.md td a[href*="/r/SaintsFC"] {
+    background-position: 0px -325px!important;
+    width: 21px!important;
+}
+.md td a[href*="/r/StokeCityFC"] {
+    background-position: 0px -350px!important;
+    width: 21px!important;
+}
+.md td a[href*="/r/SAFC"] {
+    background-position: 0px -375px!important;
+    width: 30px!important;
+}
+.md td a[href*="/r/swanseacity"] {
+    background-position: 0px -400px!important;
+    width: 25px!important;
+}
+.md .td a[href*="/r/coys"] {
+    background-position: 0px -425px!important;
+    width: 12px!important;
+}
+.md td a[href*="/r/WBAfootball"] {
+    background-position: 0px -450px!important;
+    width: 21px!important;
+}
+.md td a[href*="/r/Hammers"] {
+    background-position: 0px -475px!important;
+    width: 26px!important;
+}
 /* 
 Featured above linklisting
 ------------------------------------- 
 */
-body.listing-page .side .titlebox .usertext-body .md h2 {
+ body.listing-page .side .titlebox .usertext-body .md h2 {
     padding-left: 10px;
     color: #7D7D7D;
     background: #ecf0f1;
@@ -999,7 +1007,7 @@ body.listing-page .side .titlebox .usertext-body .md h2, body.listing-page .side
   Submit / Wiki page
 ------------------------------------- 
 */
-.infobar {
+ .infobar {
     background-color: white !important;
     color: #950A1F !important;
     padding: 5px 10px;
@@ -1008,8 +1016,7 @@ body.listing-page .side .titlebox .usertext-body .md h2, body.listing-page .side
     font-weight: bold;
     text-transform: uppercase !important;
 }
-
-.roundfield, .content.submit .info-notice{
+.roundfield, .content.submit .info-notice {
     width: 500px;
     background-color: white !important;
     border: none !important;
@@ -1017,26 +1024,22 @@ body.listing-page .side .titlebox .usertext-body .md h2, body.listing-page .side
     font-size: large;
     color: #950A1F !important;
 }
-
-.roundfield a{
+.roundfield a {
     color: #950A1F !important;
 }
-
-.submit-page.tabmenu.formtab .selected a{
+.submit-page.tabmenu.formtab .selected a {
     color: #950A1F !important;
-    font-size: 130%;
+    font-size: 130%%;
     background-color: white !important;
     border: none !important;
     font-weight: bold;
 }
-
 .submit-page .tabmenu li a {
     color: #950A1F !important;
-    font-size: 130%;
+    font-size: 130%%;
     background-color: white !important;
     border: none !important;
 }
-
 .selected, .choice.primary {
     font-weight: bold !important;
 }
