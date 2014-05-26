@@ -643,15 +643,25 @@ Upvotes
     height: 17px;
     background-position: 0 0;
 }
+
+#mail.nohavemail {
+    background-image: url(%%sprite%%);
+    background-position: 0px -16px;
+    background-repeat: no-repeat;
+    height: 13px !important;
+
+}
+
 #mail.havemail {
     background-image: url(%%sprite%%);
-    background-position: 0px -30px;
-    margin-right: 5px;
-    margin-left: 5px;
+    background-position: 0px 0px;
+    height: 16px !important;
 }
 #modmail.havemail, #modmail.nohavemail {
     background-image: url(%%sprite%%);
+    width: 13px !important;
     height: 14px !important;
+    border-radius: 3px;
 }
 #modmail.nohavemail {
     background-position: 0px -40px;
