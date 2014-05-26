@@ -169,17 +169,20 @@ SIDEBAR
 .side div.bottom {
     display: none;
 }
+.side li a, .side li a:visited {
+    font-weight: bold;
+}
 .side .md {
     text-transform: none;
 }
 .side .md h3 {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: bold;
     margin: 15px 0 0 0;
-    background: #950a1f;
+    background: #1a1a1a;
     border-radius: 3px;
     padding: 6px 6px 6px 10px;
-    color: white;
+    color: white !important;
 }
 .side .sidebox.submit div.morelink {
     border: 0;
@@ -494,8 +497,9 @@ Subreddit Header Section
     color: #950A1F;
 }
 #header-img {
-    margin-top: 10px;
-    margin-right: 5px;
+    margin-top: -29px;
+    margin-right: -7px;
+    margin-left: 50px;
 }
 /* 
 Subreddit List on the Top
@@ -940,8 +944,9 @@ Flair Link Listing
 .flair-UNITED, .side .md td a[href$="/r/Gunners"], .side .md td a[href$="/r/avfc"], .side .md td a[href$="/r/bluebirds"], .side .md td a[href$="/r/chelseafc"], .side .md td a[href$="/r/crystalpalace"], .side .md td a[href$="/r/Everton"], .side .md td a[href$="/r/FulhamFC"], .side .md td a[href$="/r/HullCity"], .side .md td a[href$="/r/LiverpoolFC"], .side .md td a[href$="/r/MCFC"], .side .md td a[href$="/r/reddevils"], .side .md td a[href$="/r/nufc"], .side .md td a[href$="/r/NorwichCity"], .side .md td a[href$="/r/SaintsFC"], .side .md td a[href$="/r/StokeCityFC"], .side .md td a[href$="/r/SAFC"], .side .md td a[href$="/r/swanseacity"], .side .md td a[href$="/r/coys"], .side .md td a[href$="/r/WBAfootball"], .side .md td a[href$="/r/Hammers"] {
     display: inline-block;
     background: url(%%plcrests%%) no-repeat -9999px -9999px transparent;
-    padding-right: 50px;
-    display: inline-block;
+    padding-left: 30px;
+    margin-top: 5px;
+    margin-right: 50px;
 }
 .side .md td a[href$="/r/Gunners"] {
     background-position: 0px 0px!important;
@@ -1021,14 +1026,14 @@ Flair Link Listing
 .side .md td a[href$="/r/SAFC"] {
     background-position: 0px -375px!important;
     width: 30px!important;
-    height: 22px !important;
+    height: 26px !important;
 }
 .side .md td a[href$="/r/swanseacity"] {
     background-position: 0px -400px!important;
     width: 25px!important;
     height: 24px !important;
 }
-.side .md .td a[href$="/r/coys"] {
+.side .md td a[href$="/r/coys"] {
     background-position: 0px -425px!important;
     width: 12px!important;
     height: 25px !important;
