@@ -273,7 +273,7 @@ SCOREBOARD
 */
  .side .titlebox .md table:nth-of-type(1) {
     box-shadow: none;
-    background: #8a081a !important;
+    background: none !important;
     border: none;
     width: 350px;
     position: absolute;
@@ -289,7 +289,7 @@ SCOREBOARD
     padding: 5px;
 }
 .side .titlebox .md table:nth-of-type(1) em {
-    color: #5a0910 !important;
+    color: white !important;
     font-style: normal !important;
     font-weight: bold;
 }
@@ -304,9 +304,9 @@ SCOREBOARD
 .side .titlebox .md table:nth-of-type(1) thead {
     display: none !important;
 }
-.side .titlebox .md table:nth-of-type(1) tr:hover {
+/*.side .titlebox .md table:nth-of-type(1) tr:hover {
     background: #8a081a !important;
-}
+}*/
 /* 
 SIDETABLE
 ------------------------------------- 
@@ -348,11 +348,11 @@ SIDETABLE
     border-bottom: 1px solid #e8e8e8;
     padding: 0.5em;
 }
-.side .md table tr:hover {
+/*.side .md table tr:hover {
     background: #f5f5f5;
-}
+}*/
 .side .md table strong {
-    color: #bf1720;
+    color: #950a1f;
     font-weight: bold;
 }
 .side .titlebox .md table a {
@@ -490,7 +490,7 @@ Subreddit Header Section
     padding: 20px 15px;
 }
 #header .tabmenu li a:hover {
-    color: #5a0910;
+    color: #950A1F;
 }
 #header-img {
     margin-top: 10px;
@@ -576,6 +576,12 @@ Subreddit List on the Top
 #RESSubredditGroupDropdown li a {
     color: white!important;
 }
+#RESSubredditGroupDropdown li:hover {
+    background-color: #8a081a!important;
+}
+#RESSubredditGroupDropdown li a:hover {
+    background-color: #8a081a!important;
+}
 #srList {
     display: none;
     position: absolute;
@@ -587,6 +593,9 @@ Subreddit List on the Top
 }
 #srList td a, #srList td {
     color: white!important;
+}
+#srList td a:hover, #srList tr:hover {
+    background-color: #8a081a!important;
 }
 #srList td a:visited {
     color: white!important;
@@ -651,6 +660,17 @@ Content
 */
  .content {
     margin: 20px;
+}
+.content a, a:visited {
+    color: #950a1f;
+}
+.content a.author {
+    font-weight: bold;
+}
+.content #siteTable .thing .entry .tagline, .content #siteTable .thing .entry .tagline span, .content #siteTable .thing .entry .tagline time, .content #siteTable .thing .entry .tagline a.author {
+    display: inline-block;
+    line-height: 30px;
+    padding-right: 5px;
 }
 .commentarea .panestack-title, .NERPageMaker, .infobar {
     margin-right: 360px;
@@ -804,6 +824,8 @@ Content
     margin: 0 .4em 2px 0 !important;
     font-size: 125%% !important;
     line-height: 1.3 !important;
+    font-weight: bold;
+    color: #1a1a1a !important;
 }
 .link.compressed .title {
     margin: -1px .4em 1px 0 !important;
@@ -836,6 +858,25 @@ Content
     outline: 0 !important;
     border: 0 !important;
     border-right: 3px solid #950A1F !important;
+}
+.link.last-clicked {
+    border: none !important;
+    overflow: hidden;
+}
+.link .score {
+    color: #9B9B9B;
+}
+.link .score.likes, .linkinfo .upvotes, .res_post_ups, .res_comment_ups {
+    color: #950a1f!important;
+}
+.link .score.dislikes, .linkinfo .downvotes, .res_post_downs, .res_comment_downs {
+    color: #1a1a1a!important;
+}
+.res_post_ups, .res_post_downs, .res_comment_ups, .res_comment_downs {
+    padding: 0 1px!important;
+}
+.res_post_ups, .res_post_downs {
+    font-weight: bold!important;
 }
 /* 
 Flair Link Listing
@@ -895,92 +936,90 @@ Flair Link Listing
 .thing.linkflair-twitter a.thumbnail {
     background-position: -48px -48px;
 }
-.flair-UNITED, .md td a[href*="/r/Gunners"], .md td a[href*="/r/avfc"], .md td a[href*="/r/bluebirds"], .md td a[href*="/r/chelseafc"], .md td a[href*="/r/crystalpalace"], .md td a[href*="/r/Everton"], .md td a[href*="/r/FulhamFC"], .md td a[href*="/r/HullCity"], .md td a[href*="/r/LiverpoolFC"], .md td a[href*="/r/MCFC"], .md td a[href*="/r/reddevils"], .md td a[href*="/r/nufc"], .md td a[href*="/r/NorwichCity"], .md td a[href*="/r/SaintsFC"], .md td a[href*="/r/StokeCityFC"], .md td a[href*="/r/SAFC"], .md td a[href*="/r/swanseacity"], .md td a[href*="/r/coys"], .md td a[href*="/r/WBAfootball"], .md td a[href*="/r/Hammers"] {
+.flair-UNITED, .side .md td a[href$="/r/Gunners"], .side .md td a[href$="/r/avfc"], .side .md td a[href$="/r/bluebirds"], .side .md td a[href$="/r/chelseafc"], .side .md td a[href$="/r/crystalpalace"], .side .md td a[href$="/r/Everton"], .side .md td a[href$="/r/FulhamFC"], .side .md td a[href$="/r/HullCity"], .side .md td a[href$="/r/LiverpoolFC"], .side .md td a[href$="/r/MCFC"], .side .md td a[href$="/r/reddevils"], .side .md td a[href$="/r/nufc"], .side .md td a[href$="/r/NorwichCity"], .side .md td a[href$="/r/SaintsFC"], .side .md td a[href$="/r/StokeCityFC"], .side .md td a[href$="/r/SAFC"], .side .md td a[href$="/r/swanseacity"], .side .md td a[href$="/r/coys"], .side .md td a[href$="/r/WBAfootball"], .side .md td a[href$="/r/Hammers"] {
     height: 20px !important;
-    padding-left: 50px;
     display: inline-block;
     background: url(%%plcrests%%) no-repeat -9999px -9999px transparent;
     line-height: 20px;
-    color: #BBB;
     display: inline-block;
 }
-.md td a[href*="/r/Gunners"] {
+.side .md td a[href$="/r/Gunners"] {
     background-position: 0px 0px!important;
     width: 21px!important;
 }
-.md td a[href*="/r/avfc"] {
+.side .md td a[href$="/r/avfc"] {
     background-position: 0px -25px!important;
     width: 18px!important;
 }
-.md td a[href*="/r/bluebirds"] {
+.side .md td a[href$="/r/bluebirds"] {
     background-position: 0px -50px!important;
     width: 18px!important;
 }
-.md td a[href*="/r/chelseafc"] {
+.side .md td a[href$="/r/chelseafc"] {
     background-position: 0px -75px!important;
     width: 25px!important;
 }
-.md td a[href*="/r/crystalpalace"] {
+.side .md td a[href$="/r/crystalpalace"] {
     background-position: 0px -100px!important;
     width: 19px!important;
 }
-.md td a[href*="/r/Everton"] {
+.side .md td a[href$="/r/Everton"] {
     background-position: 0px -125px!important;
     width: 23px!important;
 }
-.md td a[href*="/r/FulhamFC"] {
+.side .md td a[href$="/r/FulhamFC"] {
     background-position: 0px -150px!important;
     width: 19px!important;
 }
-.md td a[href*="/r/HullCity"] {
+.side .md td a[href$="/r/HullCity"] {
     background-position: 0px -175px!important;
     width: 27px!important;
 }
-.md td a[href*="/r/LiverpoolFC"] {
+.side .md td a[href$="/r/LiverpoolFC"] {
     background-position: 0px -200px!important;
     width: 18px!important;
 }
-.md td a[href*="/r/MCFC"] {
+.side .md td a[href$="/r/MCFC"] {
     background-position: 0px -225px!important;
     width: 21px!important;
 }
-.flair-UNITED, .md td a[href*="/r/reddevils"] {
+.flair-UNITED, .side .md td a[href$="/r/reddevils"] {
     background-position: 0px -250px!important;
     width: 25px!important;
 }
-.md td a[href*="/r/nufc"] {
+.side .md td a[href$="/r/nufc"] {
     background-position: 0px -275px!important;
     width: 23px!important;
 }
-.md td a[href*="/r/NorwichCity"] {
+.side .md td a[href$="/r/NorwichCity"] {
     background-position: 0px -300px!important;
     width: 22px!important;
 }
-.md td a[href*="/r/SaintsFC"] {
+.side .md td a[href$="/r/SaintsFC"] {
     background-position: 0px -325px!important;
     width: 21px!important;
 }
-.md td a[href*="/r/StokeCityFC"] {
+.side .md td a[href$="/r/StokeCityFC"] {
     background-position: 0px -350px!important;
     width: 21px!important;
 }
-.md td a[href*="/r/SAFC"] {
+.side .md td a[href$="/r/SAFC"] {
     background-position: 0px -375px!important;
     width: 30px!important;
 }
-.md td a[href*="/r/swanseacity"] {
+.side .md td a[href$="/r/swanseacity"] {
     background-position: 0px -400px!important;
     width: 25px!important;
 }
-.md .td a[href*="/r/coys"] {
+.side .md .td a[href$="/r/coys"] {
     background-position: 0px -425px!important;
     width: 12px!important;
 }
-.md td a[href*="/r/WBAfootball"] {
+.side .md td a[href$="/r/WBAfootball"] {
     background-position: 0px -450px!important;
     width: 21px!important;
 }
-.md td a[href*="/r/Hammers"] {
+.side .md td a[href$="/r/Hammers"] {
     background-position: 0px -475px!important;
     width: 26px!important;
 }
@@ -990,8 +1029,8 @@ Featured above linklisting
 */
  body.listing-page .side .titlebox .usertext-body .md h2 {
     padding-left: 10px;
-    color: #7D7D7D;
-    background: #ecf0f1;
+    color: white!important;
+    background: #1a1a1a;
     z-index: 2!important;
 }
 body.listing-page .side .titlebox .usertext-body .md h2, body.listing-page .side .titlebox .usertext-body .md h5 {
@@ -1003,6 +1042,11 @@ body.listing-page .side .titlebox .usertext-body .md h2, body.listing-page .side
     line-height: 35px;
     border-radius: 3px;
 }
+
+ body.listing-page .side .titlebox .usertext-body .md h2 a,  body.listing-page .side .titlebox .usertext-body .md h2 a:visited{
+    color: #950A1F!important;
+}
+
 /* 
   Submit / Wiki page
 ------------------------------------- 
