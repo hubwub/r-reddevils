@@ -156,9 +156,8 @@ textarea, input[type="text"], input[type="password"], input[type="url"] {
     text-align: center;
     border: none;
 }
-.RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
-    background-color: #0000FF !important;
-}
+
+
 /* 
 SIDEBAR
 ------------------------------------- 
@@ -351,6 +350,7 @@ SIDETABLE
     border: none;
     border-bottom: 1px solid #e8e8e8;
     padding: 0.5em;
+    text-align: center;
 }
 /*.side .md table tr:hover {
     background: #f5f5f5;
@@ -868,10 +868,11 @@ Content
     font-size: 12px;
     letter-spacing: 0;
 }
-.entry.RES-keyNav-activeElement, .entry:hover {
+.entry.RES-keyNav-activeElement, .RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed, .entry:hover {
     padding-right: 2px !important;
     outline: 0 !important;
     border: 0 !important;
+    background-color: #fff !important;
     border-right: 3px solid #950A1F !important;
 }
 .link.last-clicked {
