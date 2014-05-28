@@ -1081,6 +1081,17 @@ body.listing-page .side .titlebox .usertext-body .md h2, body.listing-page .side
 body.listing-page .side .titlebox .usertext-body .md h2 a, body.listing-page .side .titlebox .usertext-body .md h2 a:visited {
     color: #950A1F!important;
 }
+
+.infobar.welcome {
+        display: none;
+        background-color: white;
+        padding: 0;
+        height: 80px;
+        overflow: hidden;
+        margin-right: 0;
+        white-space: nowrap;
+}
+
 /* 
   Submit / Wiki page
 ------------------------------------- 
@@ -1120,4 +1131,21 @@ body.listing-page .side .titlebox .usertext-body .md h2 a, body.listing-page .si
 }
 .selected, .choice.primary {
     font-weight: bold !important;
+}
+
+/* 
+  Login
+------------------------------------- 
+*/
+
+.login-form-side{
+    border: 1px solid white;
+}
+
+.login-form-side input[type=text], .login-form-side input[type=password] {
+    width: 137px;
+    height: 17px;
+    margin: 5px 0px 0px 5px;
+    top: 5px;
+    padding: 1px;
 }
