@@ -188,19 +188,18 @@ SIDEBAR
     background-image: url(%%submit%%);
     background-position: 0 0;
     background-repeat: no-repeat;
-    font-weight: 300;
     letter-spacing: normal;
     line-height: 40px;
     height: 40px;
     text-align: left;
     border-radius: 3px;
-    text-transform: uppercase;
+    font-weight: bold;
 }
 .side .sidebox.submit div.morelink a {
     padding: 0 0 0 10px;
     color: white;
     font-size: 16px;
-    text-transform: uppercase;
+    font-weight: bold;
 }
 .side .sidebox.submit div.morelink div.nub {
     position: relative;
@@ -212,7 +211,7 @@ SIDEBAR
     background-image: none;
     background-position: 0 0;
     background-repeat: no-repeat;
-    text-transform: uppercase;
+    font-weight: bold;
 }
 .side .sidebox.submit div.morelink {
     border: 0;
@@ -225,7 +224,7 @@ SIDEBAR
     height: 40px;
     text-align: left;
     border-radius: 3px;
-    text-transform: uppercase;
+    font-weight: bold;
 }
 form#search input {
     border: #ccc 1px solid !important;
@@ -267,7 +266,7 @@ form#search input[type=text] {
     border-radius: 3px;
     font-weight: 300;
     padding: 10 0 0 0px;
-    text-transform: uppercase;
+    font-weight: bold;
 }
 /* 
 SCOREBOARD
