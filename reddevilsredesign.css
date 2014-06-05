@@ -466,11 +466,16 @@ body.res #header #header-bottom-right {
 Subreddit Header Section
 ------------------------------------- 
 */
- #header {
+ #header, .res-nightmode #header {
     background-color: #950a1f;
     border-bottom: 55px #1a1a1a solid;
     height: 125px;
 }
+
+.res-nightmode #header-bottom-left {
+    background-color: #30395A;
+}
+
 #header #header-bottom-left {
     position: relative;
     top: 25px;
@@ -522,20 +527,18 @@ Subreddit Header Section
 Subreddit List on the Top
 ------------------------------------- 
 */
- #sr-header-area {
+ #sr-header-area, .res-nightmode #sr-header-area {
     height: 29px;
     line-height: 29px;
     color: white;
-}
-#sr-header-area a, a:visited {
-    color: white;
-}
-#sr-header-area {
-    height: 29px;
-    line-height: 29px;
     background: #1a1a1a;
     border-bottom: none;
 }
+
+#sr-header-area a, a:visited {
+    color: white;
+}
+
 #sr-header-area #srLeftContainer.sr-bar {
     margin-left: 5px;
     height: 29px;
@@ -626,7 +629,7 @@ Subreddit List on the Top
     text-transform: none;
     color: white!important;
 }
-#sr-header-area #sr-more-link {
+#sr-header-area #sr-more-link, .res-nightmode #sr-more-link {
     height: 29px;
     line-height: 29px;
     color: white;
@@ -1166,3 +1169,9 @@ body.listing-page .side .titlebox .usertext-body .md h2 a, body.listing-page .si
     top: 5px;
     padding: 1px;
 }
+
+/* 
+  Nightmode
+------------------------------------- 
+*/
+
