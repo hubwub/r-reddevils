@@ -436,14 +436,32 @@ body.res #header #header-bottom-right {
     left: -30px !important;
 }
 .RESDropdownList {
-    background: #8A081A!important;
+    background: #1A1A1A!important;
     border: 1px solid white!important;
 }
 .RESDropdownList li {
     color: white!important;
-    background: #8A081A!important;
-    border: 1px solid #8A081A!important;
+    background: #1A1A1A!important;
+    border: 1px solid #1A1A1A!important;
 }
+
+#RESMainGearOverlay {
+    position: absolute;
+    display: none;
+    width: 27px;
+    height: 24px;
+    border: 1px solid;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-color: 1px solid #1A1A1A!important;
+    background-color: #1A1A1A!important;
+    border-radius: 3px 3px 0px 0px;
+    z-index: 10000;
+}
+
 /* 
 Subreddit Header Section
 ------------------------------------- 
