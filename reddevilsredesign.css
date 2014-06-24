@@ -1293,3 +1293,7 @@ h1.redditname {
   display: none;
 }
 
+.RESShortcutsCurrentSub, .RESShortcutsCurrentSub:visited {
+    color: #950a1f!important;
+    font-weight: bold;
+}

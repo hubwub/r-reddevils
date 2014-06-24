@@ -1,7 +1,7 @@
 /* POTW */
 .side h1 a[href="#caption"]:after {
-	top: 347px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
-	content: "ryan giggs has called time on his playing career to become van gaal's assistant manager. tore you apart since 1991"
+	top: 358px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
+	content: "Alexander Buttner has signed for FC Dynamo Moscow."
 }
 
 /* Announcement */
@@ -1533,4 +1533,12 @@ a[href^="//#yellow"], a[href^="//#yellowcard"]{
 	 background-position: left center;
 	 padding-left: 20px;
 	 background-position: 0 -340px;
+}
+
+.md p{
+         text-align:justify;
+}
+
+.md h1{
+         text-align:center;
 }
