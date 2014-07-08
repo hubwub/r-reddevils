@@ -1,7 +1,7 @@
 /* POTW */
 .side h1 a[href="#caption"]:after {
 	top: 358px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
-	content: "Luke Shaw has joined Ander Herrera in joining United on a four year deal!"
+	content: "New 14/15 kit unveiled!"
 }
 
 /* Announcement */
