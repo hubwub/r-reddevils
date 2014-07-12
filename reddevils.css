@@ -675,6 +675,12 @@ links styling */
 	background: #333;
 }
 
+#siteTable .title[href*="guardian.com"]:before, #siteTable .title[srcurl*="guardian.com"]:before {
+	content:"Guardian";
+	color: #fafafa;
+	background: #333;
+}
+
 #siteTable .title[href*="independent.co.uk"]:before, #siteTable .title[srcurl*="independent.co.uk"]:before {
 	content:"Independent";
 	color: #fafafa;
@@ -702,6 +708,7 @@ links styling */
 
 /* poopy sources */
 #siteTable .title[href*="dailymail.co.uk"]:before, #siteTable .title[srcurl*="dailymail.co.uk"]:before,
+#siteTable .title[href*="metro.co.uk"]:before, #siteTable .title[srcurl*="metro.co.uk"]:before,
 #siteTable .title[href*="mirror.co.uk"]:before, #siteTable .title[srcurl*="mirror.co.uk"]:before,
 #siteTable .title[href*="thesun.co.uk"]:before, #siteTable .title[srcurl*="thesun.co.uk"]:before,
 #siteTable .title[href*="goal.com"]:before, #siteTable .title[srcurl*="goal.com"]:before,
