@@ -1,7 +1,7 @@
 /* POTW */
 .side h1 a[href="#caption"]:after {
 	top: 358px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
-	content: "14/15 Home Kit now available!"
+	content: "Evra has officially joined juventus. Thanks for everything patrice!"
 }
 
 /* Announcement */
@@ -1182,7 +1182,7 @@ blockquote {
 	border-left: #ddd 1px dashed !important;
 }
 
-.wiki-page .wiki-page-content .md.wiki &gt; .toc &gt; ul {
+.wiki-page .wiki-page-content .md.wiki .toc ul {
 	border: #ddd 1px solid !important;
 	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
 }
@@ -1466,7 +1466,7 @@ a[href$="#westham"] {
 /* Match Thread Icons */
 
 /* Icons */
-#siteTable a[href^="//#"] {
+.sitetable.linklisting .flair, .sidecontentbox .content  a[href^="//#"] {
  display: inline-block;
  width: 16px;
  height: 16px;
@@ -1479,13 +1479,13 @@ a[href$="#westham"] {
  background-color: transparent;
  cursor: default;
 }
-#siteTable  a[href^="//#"][href$="-big"] {
+.sitetable.linklisting .flair, .sidecontentbox .content a[href^="//#"][href$="-big"] {
  width: 16px;
  height: 16px;
  line-height: 16px;
  background-image: url(%%icons%%);
 }
-#siteTable .comment a[href^="//#"] {
+.sitetable.linklisting .flair, .sidecontentbox .content .comment a[href^="//#"] {
  display: none!important;
 }
  
