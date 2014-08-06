@@ -1,7 +1,7 @@
 /* POTW */
 .side h1 a[href="#caption"]:after {
 	top: 358px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
-	content: "We have reached the ICC final vs liverpool after beating real madrid 3-1"
+	content: "Utd crush Liverpool's chance of a trophy this season with a 3-1 win in the icc final"
 }
 
 /* Announcement */
@@ -1466,80 +1466,65 @@ a[href$="#westham"] {
 /* Match Thread Icons */
 
 /* Icons */
-.sitetable.linklisting .flair, .sidecontentbox .content  a[href^="//#"] {
+a[href^="#icon"],
+a[href^="#sprite"],
+a[href^="#bar"] {
  display: inline-block;
  width: 16px;
  height: 16px;
  line-height: normal;
  background-repeat: no-repeat;
  background-image: url(%%icons%%);
+ background-position: -999px -999px;
  vertical-align: middle;
  padding: 0;
  border-width: 0;
  background-color: transparent;
  cursor: default;
 }
-.sitetable.linklisting .flair, .sidecontentbox .content a[href^="//#"][href$="-big"] {
- width: 16px;
- height: 16px;
- line-height: 16px;
- background-image: url(%%icons%%);
+a[href^="#icon"][href$="-big"] {
+ width: 24px;
+ height: 24px;
+ line-height: 24px;
+ background-image: url(%%icons-big%%);
 }
-.sitetable.linklisting .flair, .sidecontentbox .content .comment a[href^="//#"] {
+.comment a[href^="#icon"],
+.comment a[href^="#sprite"],
+.comment a[href^="#bar"] {
  display: none!important;
 }
- 
-a[href^="//#ball"], a[href^="//#goal"]{
-	background-position: 0 0;
-}
-a[href^="//#clock"],a[href^="//#stoptwatch"],a[href^="//#time"]{
-	background-position: 0 -34px;
-}
-a[href^="//#down"],a[href^="//#off"],a[href^="//#suboff"]{
-	background-position: 0 -68px;
-}
-a[href^="//#flag"],a[href^="//#offside"]{
-	background-position: 0 -102px;
-}
-a[href^="//#info"]{
-	background-position: 0 -136px;
-}
-a[href^="//#net"]{
-	background-position: 0 -170px;
-}
-a[href^="//#news"]{
-	background-position: 0 -204px;
-}
-a[href^="//#notes"]{
-	background-position: 0 -238px;
-}
-a[href^="//#red"],a[href^="//#redcard"]{
-	background-position: 0 -306px;
-}
-a[href^="//#red-ball"],a[href^="//#owngoal"]{
-	background-position: 0 -272px;
-}
-a[href^="//#stream"]{
-	background-position: 0 -374px;
-}
-a[href^="//#sub"], a[href^="//#substitution"]{
-	background-position: 0 -408px;
-}
-a[href^="//#up"], a[href^="//#on"], a[href^="//#subon"]{
-	background-position: 0 -442px;
-}
-a[href^="//#whistle"], a[href^="//#foul"]{
-	background-position: 0 -476px;
-}
-a[href^="//#yellow"], a[href^="//#yellowcard"]{
-	background-position: 0 -510px;
-}
-.md a[href*="youtube.com/watch"], .md a[href*="youtu.be/"], .md a[href*="vimeo.com/"], .md a[href*="twitvid.com/"], .md a[href*="/video/"], .md a[href*="/gvideos/"], .md a[href*="gfycat.com/"] {
-	 background-image: url(%%icons%%);
-	 background-repeat: no-repeat;
-	 background-position: left center;
-	 padding-left: 20px;
-	 background-position: 0 -340px;
+
+a[href^="#icon-ball"]{background-position: 0 0}
+a[href^="#icon-clock"]{background-position: 0 -34px}
+a[href^="#icon-down"]{background-position: 0 -68px}
+a[href^="#icon-flag"]{background-position: 0 -102px}
+a[href^="#icon-info"]{background-position: 0 -136px}
+a[href^="#icon-net"]{background-position: 0 -170px}
+a[href^="#icon-news"]{background-position: 0 -204px}
+a[href^="#icon-notes"]{background-position: 0 -238px}
+a[href^="#icon-red"]{background-position: 0 -306px}
+a[href^="#icon-red-ball"]{background-position: 0 -272px}
+a[href^="#icon-star"]{background-position: 0 -340px}
+a[href^="#icon-stream"]{background-position: 0 -374px}
+a[href^="#icon-sub"]{background-position: 0 -408px}
+a[href^="#icon-up"]{background-position: 0 -442px}
+a[href^="#icon-whistle"]{background-position: 0 -476px}
+a[href^="#icon-yellow"]{background-position: 0 -510px}
+
+/* Video icon */
+.md a[href*="youtube.com/watch"],
+.md a[href*="youtu.be/"],
+.md a[href*="vimeo.com/"],
+.md a[href*="vine.co/"],
+.md a[href*="veoh.com/"],
+.md a[href*="twitvid.com/"],
+.md a[href*="/video/"],
+.md a[href*="/videok/"],
+.md a[href*="/gvideos/"] {
+ background-image: url(%%video%%);
+ background-repeat: no-repeat;
+ background-position: left center;
+ padding-left: 20px;
 }
 
 .md p{
