@@ -1,8 +1,7 @@
 /* POTW */
 .side h1 a[href="#caption"]:after {
-	top: 369px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
-	content: "Happy 31st Birthday Robin van Persie!"
-}
+	top: 358px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
+	content: "Utd end pre season with a late 2-1 win vs Valencia in lvg's old trafford debut"}
 
 /* Announcement */
 /* To set the announcement, add the following to the top of the sidebar:
@@ -577,7 +576,9 @@ links styling */
 #siteTable .title[href*="/match_tactics_thread"],
 #siteTable .title[href*="/mtt_"],
 #siteTable .title[href*="/team_news"],
-#siteTable .title[href*="/unpopular_opinions"]
+#siteTable .title[href*="/unpopular_opinions"],
+#siteTable .title[href*="/going_for_gold"]
+
 {
 	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
 	padding: 0px 5px;
