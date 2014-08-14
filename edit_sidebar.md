@@ -1,13 +1,12 @@
 Home |    Score | Away | Links
  :-: | :---: | :-: | :-:
-Pre Season |  :  | Dates to follow! | July/August 2014
-Southampton  | 1 : 1 | *Man Utd* | [Pre](http://www.reddit.com/r/reddevils/comments/2537mx/pre_match_thread_southampton_vs_manchester_united/) - [Match](http://www.reddit.com/r/reddevils/comments/25a17p/match_thread_southampton_fc/)  - [Post](http://www.reddit.com/r/reddevils/comments/25ab2q/post_match_season_thread_southampton_1_manchester/)
+*Man Utd* | 2 : 1 | Valencia | [Pre](http://www.reddit.com/r/reddevils/comments/2d80jv/pre_match_thread_manchester_united_vs_valencia/) - [Match](http://www.reddit.com/r/reddevils/comments/2dctim/match_thread_manchester_united_fc_vs_valencia_cf/) - [Post](http://www.reddit.com/r/reddevils/comments/2ddafl/postmatch_thread_manchester_united_2_1_valencia/)
+*Man Utd* |  :  | Swansea City | 16 August 12:45 BST
 
 #[](#potw)
 #[](#caption)
 
 #**Manchester United FC**
-
 
 #[](#break)
 
@@ -23,13 +22,17 @@ Southampton  | 1 : 1 | *Man Utd* | [Pre](http://www.reddit.com/r/reddevils/comme
 
 
 
-***
-**Links**
+###Useful Links
 
-[ManUtd](http://www.manutd.com/Splash-Page.aspx) | [Twitter](https://twitter.com/ManUtd) | [Facebook](http://www.facebook.com/manchesterunited?fref=ts) | [r/soccer](http://www.reddit.com/r/soccer/) | [r/football](http://www.reddit.com/r/football/) | [r/premierleague](http://www.reddit.com/r/premierleague/) | [Stretford End](http://www.stretfordend.co.uk/)
+* /r/stream_links
+* /r/footballdownload
+* /r/footballhighlights
+* /r/soccer
+* /r/football
+* /r/premierleague
 
-***
+###Resources
 
-**Resources**
-
-[Subreddit Rules](http://www.reddit.com/r/reddevils/comments/1isixg/subreddit_rules) | [Subreddit Wiki](http://www.reddit.com/r/RedDevils/wiki) | [Match Thread templates](http://www.reddit.com/r/RedDevils/wiki/match_templates) | [Ticket and tourist information](http://www.reddit.com/r/RedDevils/wiki/tickets_tourist_info) | /r/footballdownload 
+* [Subreddit Rules](http://www.reddit.com/r/reddevils/comments/1isixg/subreddit_rules) 
+* [Subreddit Wiki](http://www.reddit.com/r/RedDevils/wiki) 
+* [Match Thread templates](http://www.reddit.com/r/RedDevils/wiki/match_templates)
