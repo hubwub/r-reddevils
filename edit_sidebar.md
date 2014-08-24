@@ -1,7 +1,7 @@
 Home |    Score | Away | Links
  :-: | :---: | :-: | :-:
-*Man Utd* | 2 : 1 | Valencia | [Pre](http://www.reddit.com/r/reddevils/comments/2d80jv/pre_match_thread_manchester_united_vs_valencia/) - [Match](http://www.reddit.com/r/reddevils/comments/2dctim/match_thread_manchester_united_fc_vs_valencia_cf/) - [Post](http://www.reddit.com/r/reddevils/comments/2ddafl/postmatch_thread_manchester_united_2_1_valencia/)
-*Man Utd* |  :  | Swansea City | 16 August 12:45 BST
+Sunderland | 1:1  | *Man Utd*| [Pre](http://www.reddit.com/r/reddevils/comments/2ef2k8/prematch_thread_sunderland_vs_manchester_united/) - [Match](http://www.reddit.com/r/reddevils/comments/2eg2aq/match_thread_sunderland_afc_vs_manchester_united/) - [Post](http://www.reddit.com/r/reddevils/comments/2egdi1/post_match_thread_united_vs_sunderland/)
+MK Dons |  :  | *Man Utd* | 24 August 20:00 BST
 
 #[](#potw)
 #[](#caption)
@@ -14,15 +14,7 @@ Home |    Score | Away | Links
 
 #[](#break)
 
-**Features**
-
-[r/reddevils chat (IRC channel)](http://www.reddit.com/r/reddevils/wiki/irc_channel)
-
-[Unpopular opinions - February](http://www.reddit.com/r/reddevils/comments/1y2svc/unpopular_opinions_february_part_2/)
-
-
-
-###Useful Links
+#Useful Links
 
 * /r/stream_links
 * /r/footballdownload
@@ -31,7 +23,9 @@ Home |    Score | Away | Links
 * /r/football
 * /r/premierleague
 
-###Resources
+#[](#break)
+
+#Resources
 
 * [Subreddit Rules](http://www.reddit.com/r/reddevils/comments/1isixg/subreddit_rules) 
 * [Subreddit Wiki](http://www.reddit.com/r/RedDevils/wiki) 
