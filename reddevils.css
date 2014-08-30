@@ -1,7 +1,7 @@
 /* POTW */
 .side h1 a[href="#caption"]:after {
-	top: 358px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
-	content: "Marcos Rojo is officially a red, and has been handed the number 5 shirt"}
+	top: 369px; /* 1 line: 369px; 2 lines: 358px; 3 lines: 347px... */
+	content: "Angel Di Maria is our new number 7!"}
 
 /* Announcement */
 /* To set the announcement, add the following to the top of the sidebar:
